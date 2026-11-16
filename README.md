@@ -53,6 +53,21 @@ A identificação abaixo foi conferida na **página 1 do [documento acadêmico d
 **Líder técnico indicado no documento:** Lucas Nery Miranda.<br>
 **Primeira entrega:** 20/10/2026, conforme a capa do PDF.
 
+### Responsabilidades técnicas e de organização — Lucas Nery Miranda
+
+**Lucas Nery Miranda — RA 4261212244** integra oficialmente a Squad Tech Pro e informa as seguintes responsabilidades no projeto:
+
+- Correção de erros e bugs do código.
+- Manutenção e melhorias das funcionalidades da calculadora.
+- Revisão do funcionamento dos cálculos e do sistema.
+- Organização da apresentação acadêmica.
+- Elaboração, revisão e distribuição das falas dos integrantes.
+- Apoio técnico e preparação do sistema para a demonstração, antes da apresentação.
+
+**Lucas Nery não participará das falas nem da demonstração ao vivo e não possui slide atribuído para apresentar.** Sua participação é técnica e de organização. A apresentação oral e a operação do sistema durante a demonstração ficam com **Gustavo Henrique da Silva Cunha, Bernardo Benízio de Almeida, Caio de Aquino Lima, Lucas Felipe dos Santos Silva e Vitor de Paiva Cleto**.
+
+O [roteiro acadêmico](apresentacao/apresentacao.md) foi reduzido para **10 slides e duração prevista de 7min35s**, incluindo **85 segundos de demonstração**. Os tempos incluem falas, transições e ações no sistema; perguntas ficam fora dessa previsão. As responsabilidades acima foram informadas pelo próprio integrante e complementam os dados acadêmicos do PDF, que permanece inalterado.
+
 ## 🛠 Tecnologias utilizadas
 
 | Tecnologia                           | Uso real no projeto                                              |
@@ -294,7 +309,7 @@ tailwind.config.cjs            # Configuração visual original do Tailwind
 package.json / package-lock.json
 playwright.config.cjs
 tests/                        # Testes matemáticos e de navegador
-apresentacao/apresentacao.md   # 17 slides, roteiro e divisão de falas
+apresentacao/apresentacao.md   # 10 slides, 7min35s e divisão de falas
 …pdf                          # Primeira entrega acadêmica, preservada
 ```
 
@@ -316,6 +331,6 @@ apresentacao/apresentacao.md   # 17 slides, roteiro e divisão de falas
 
 Projeto da **Squad Tech Pro**, identificado como **Squad Tech** no documento acadêmico, desenvolvido para a disciplina **Matemática Computacional**, no **Centro Universitário UNA · Contagem**, com professor responsável **André Rodrigues**.
 
-O [PDF da primeira entrega](1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf) permanece inalterado e é a fonte dos dados acadêmicos desta documentação. O [roteiro da apresentação](apresentacao/apresentacao.md) contém 17 slides, exemplos testados e participação dos seis integrantes.
+O [PDF da primeira entrega](1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf) permanece inalterado e é a fonte dos dados acadêmicos desta documentação. O [roteiro da apresentação](apresentacao/apresentacao.md) contém 10 slides, exemplos testados e duração prevista de 7min35s. Preserva os seis integrantes na identificação, registra a contribuição técnica e organizacional de Lucas Nery e distribui todas as falas e demonstrações entre os outros cinco integrantes.
 
 Math.js, Font Awesome, Inter e JetBrains Mono são projetos de terceiros. Suas licenças estão incluídas em `assets/`. Nenhuma licença desses componentes implica uma licença nova para o código acadêmico da equipe.

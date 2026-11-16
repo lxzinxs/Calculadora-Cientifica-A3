@@ -3,443 +3,308 @@
 **Equipe:** Squad Tech Pro · **Disciplina:** Matemática Computacional<br>
 **Instituição:** Centro Universitário UNA · Contagem<br>
 **Professor:** André Rodrigues<br>
-**Formato:** roteiro em Markdown, 17 slides · **Duração:** aproximadamente 18 minutos, incluindo 3 minutos de demonstração; reservar até 2 minutos para perguntas.
+**Formato:** roteiro em Markdown, **10 slides** · **Duração prevista: 7min35s (455 segundos)**, incluindo **85 segundos de demonstração**. Perguntas ficam fora desse tempo.
 
-## Identificação e divisão das falas
+## Integrantes e participação
 
-Dados acadêmicos conferidos na página 1 do [PDF original da primeira entrega](../1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf). O documento identifica o grupo como **Squad Tech**; a interface e esta apresentação usam **Squad Tech Pro**. A divisão abaixo é uma proposta para ensaio, não uma atribuição histórica de autoria do código.
+Nomes e RAs conferidos na página 1 do [PDF original da primeira entrega](../1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf). O documento identifica o grupo como **Squad Tech**; a interface utiliza **Squad Tech Pro**. O RA de Bernardo foi mantido literalmente e o nome de Caio teve apenas a capitalização normalizada.
 
-| Integrante                      | RA / matrícula no PDF | Slides principais                 | Participação total estimada |
-| ------------------------------- | --------------------- | --------------------------------- | --------------------------- |
-| Lucas Nery Miranda              | 4261212244            | 1, 5, 16 e trecho do 13           | 3min15s                     |
-| Gustavo Henrique da Silva Cunha | 4261214511            | 2, 6, 14 e trecho do 13           | 3min15s                     |
-| Caio de Aquino Lima             | 4261211879            | 3, 9, 15 e trecho do 13           | 3min15s                     |
-| Bernardo Benízio de Almeida     | 42621691              | 4, 10 e trecho do 13              | 2min45s                     |
-| Lucas Felipe dos Santos Silva   | 4261213698            | 7, 11, parte do 17 e trecho do 13 | 2min45s                     |
-| Vitor de Paiva Cleto            | 4261214103            | 8, 12, parte do 17 e trecho do 13 | 2min45s                     |
+| Integrante | RA | Participação oral | Tempo total previsto |
+|---|---|---|---|
+| Lucas Nery Miranda | 4261212244 | Não apresentará; atuação técnica e de organização descrita abaixo | 0s |
+| Gustavo Henrique da Silva Cunha | 4261214511 | Slides 2 e 9; trecho do slide 8 | 1min30s |
+| Bernardo Benízio de Almeida | 42621691 | Slide 3; trechos dos slides 7 e 8 | 1min30s |
+| Caio de Aquino Lima | 4261211879 | Slide 4; trechos dos slides 7 e 8 | 1min25s |
+| Lucas Felipe dos Santos Silva | 4261213698 | Slides 1 e 5; trecho do slide 8 | 1min45s |
+| Vitor de Paiva Cleto | 4261214103 | Slides 6 e 10; trecho do slide 8 | 1min25s |
 
-O RA de Bernardo foi transcrito literalmente, apesar de ter menos dígitos. O PDF registra “Caio de aquino lima”; aqui apenas a capitalização foi normalizada. Não há alteração dos dados no documento original.
+### Responsabilidades técnicas e de organização — Lucas Nery Miranda
 
-## Preparação para a apresentação
+**Lucas Nery Miranda — RA 4261212244**, conforme suas responsabilidades informadas para esta entrega:
 
-- Executar o servidor local conforme o [README](../README.md) e abrir `http://localhost:8000`.
-- Manter o modo **RAD** nos exemplos, salvo indicação explícita de DEG.
-- Esperar a mensagem **NÚCLEO DISPONÍVEL OFFLINE** antes de demonstrar ausência de rede.
-- Abrir cada aba uma vez, conferir os dados e ensaiar as trocas de apresentador.
-- Usar ponto para casas decimais. Não depender de internet para fontes, ícones ou motor: esses recursos são locais.
-- Os comandos `npm test` e `npm run test:browser` reproduzem a validação descrita no README. Executá-los antes da aula se o código tiver mudado.
+- Correção de erros e bugs do código.
+- Manutenção e melhorias das funcionalidades da calculadora.
+- Revisão do funcionamento dos cálculos e do sistema.
+- Organização da apresentação acadêmica.
+- Elaboração, revisão e distribuição das falas dos integrantes.
+- Apoio técnico e preparação do sistema para a demonstração, antes da apresentação.
 
----
+**Lucas Nery integra oficialmente a equipe, mas não terá falas, slides para apresentar nem participação na demonstração ao vivo.** Toda a exposição oral e a operação do sistema durante a apresentação serão realizadas por Gustavo, Bernardo, Caio, Lucas Felipe e Vitor. As responsabilidades acima são um registro de sua contribuição técnica e organizacional, não uma tarefa de apresentação.
 
-## Slide 1 — Capa
+## Cronograma dos 10 slides
 
-**Responsável:** Lucas Nery Miranda<br>
-**Tempo estimado:** 45 segundos
+| Slide | Tema | Apresentador(es) | Duração | Intervalo acumulado |
+|---|---|---|---|---|
+| 1 | Abertura | Lucas Felipe | 35s | 0:00–0:35 |
+| 2 | Problema e objetivo | Gustavo | 45s | 0:35–1:20 |
+| 3 | Tecnologias e arquitetura | Bernardo | 50s | 1:20–2:10 |
+| 4 | Calculadora científica | Caio | 50s | 2:10–3:00 |
+| 5 | Funções e gráficos | Lucas Felipe | 55s | 3:00–3:55 |
+| 6 | Matrizes e combinatória | Vitor | 55s | 3:55–4:50 |
+| 7 | Cálculo numérico e recursos extras | Bernardo (20s) e Caio (20s) | 40s | 4:50–5:30 |
+| 8 | Demonstração prática | Os cinco apresentadores | 85s | 5:30–6:55 |
+| 9 | Resultados e conclusão | Gustavo | 35s | 6:55–7:30 |
+| 10 | Agradecimentos | Vitor | 5s | 7:30–7:35 |
 
-**Conteúdo visual:**
+Os tempos incluem fala, transições e ações na tela. São uma previsão para ensaio, não uma medição de uma apresentação já realizada.
 
-**Calculadora Científica A3**<br>
-Squad Tech Pro · Matemática Computacional<br>
-Centro Universitário UNA · Contagem · Prof. André Rodrigues
+## Preparação anterior à apresentação
 
-| Integrante                      | RA         |
-| ------------------------------- | ---------- |
-| Lucas Nery Miranda              | 4261212244 |
-| Gustavo Henrique da Silva Cunha | 4261214511 |
-| Caio de Aquino Lima             | 4261211879 |
-| Bernardo Benízio de Almeida     | 42621691   |
-| Lucas Felipe dos Santos Silva   | 4261213698 |
-| Vitor de Paiva Cleto            | 4261214103 |
-
-**Roteiro de fala:**
-
-“Boa noite. Eu sou Lucas Nery Miranda e vou apresentar, com a equipe Squad Tech Pro, a Calculadora Científica A3. Nosso projeto integra conteúdos de Matemática Computacional em uma aplicação web. Além das operações científicas, reunimos funções, gráficos, matrizes, combinatória e cálculo numérico. Durante a apresentação, vamos explicar a organização do sistema e conferir exemplos na própria calculadora.”
-
-**Demonstração:** deixar a tela principal aberta, com tema escuro e sem resultados antigos no display.
-
----
-
-## Slide 2 — Introdução
-
-**Responsável:** Gustavo Henrique da Silva Cunha<br>
-**Tempo estimado:** 45 segundos
-
-**Conteúdo visual:**
-
-- Ferramenta web para calcular e explorar conceitos matemáticos.
-- Uma expressão pode gerar resultado, tabela ou gráfico.
-- Organização por seis módulos e ferramentas avançadas recolhíveis.
-- Resultados acompanhados de validação e mensagens específicas.
-
-**Roteiro de fala:**
-
-“Eu sou Gustavo Henrique. Uma calculadora científica trabalha com operações que vão além das quatro operações básicas, como potências, raízes e trigonometria. Aqui, a proposta é reunir essas operações com ferramentas que usamos na disciplina. Por exemplo, podemos calcular um valor de uma função e depois observar o seu gráfico. O problema que buscamos resolver é a fragmentação dessas atividades em ferramentas diferentes, mantendo uma interface acessível no navegador.”
-
-**Demonstração:** indicar brevemente as seis abas, sem executar cálculos nesta etapa.
+- Executar o servidor conforme o [README](../README.md) e abrir `http://localhost:8000`. Deixar a aba 01 selecionada, com display e histórico limpos.
+- Manter **RAD** e preparar a aba 02 com `x^2`, x `2`, mínimo `-2`, máximo `2` e passo `1`.
+- Preparar a matriz A 2×2 como `[[1,2],[3,4]]`. Na aba 05, deixar `x^2`, x₀ `3`, a `0`, b `1` e método Simpson.
+- Retornar à aba 01. Os cinco apresentadores devem ensaiar a operação e as trocas; a preparação técnica anterior não cria participação de Lucas Nery na demonstração ao vivo.
+- Usar ponto nos decimais. Os exemplos já integram os testes do projeto; conferir novamente antes da aula se houver mudanças. Pequenas diferenças nos últimos dígitos de aproximações são esperadas.
+- Reservar os cliques para o slide 8. Nos demais slides, usar os exemplos escritos ou as [capturas reais](../README.md#-capturas-reais-do-sistema), sem repetir a demonstração.
 
 ---
 
-## Slide 3 — Objetivos
-
-**Responsável:** Caio de Aquino Lima<br>
-**Tempo estimado:** 45 segundos
-
-**Conteúdo visual:**
-
-| Dimensão    | Objetivo                                                         |
-| ----------- | ---------------------------------------------------------------- |
-| Acadêmica   | Relacionar conceitos da disciplina a implementações verificáveis |
-| Matemática  | Respeitar precedência, domínios e limites numéricos              |
-| Tecnológica | Integrar interface, motor, armazenamento e testes                |
-| Uso         | Preservar a identidade Cyberpunk Neon e facilitar a navegação    |
-
-**Roteiro de fala:**
-
-“Eu sou Caio de Aquino Lima. Nosso objetivo acadêmico é tornar os conceitos da disciplina observáveis em uma aplicação. No aspecto matemático, precisamos respeitar regras de precedência e distinguir uma resposta válida de uma entrada incompleta. No aspecto tecnológico, a interface e os módulos devem compartilhar regras de avaliação. Também queremos que uma falha no armazenamento do navegador não impeça uma conta correta. Os testes com resultados conhecidos ajudam a verificar esses objetivos.”
-
-**Demonstração:** nenhuma; apresentar os critérios de qualidade que serão retomados no slide 15.
-
----
-
-## Slide 4 — Tecnologias
-
-**Responsável:** Bernardo Benízio de Almeida<br>
-**Tempo estimado:** 1 minuto
-
-**Conteúdo visual:**
-
-- **HTML5:** estrutura, campos, botões e seis módulos.
-- **CSS3 e Tailwind CSS compilado:** layout responsivo, temas e efeitos neon.
-- **JavaScript:** eventos, validação e integração dos cálculos.
-- **Math.js:** expressões matemáticas, complexos, unidades e álgebra linear.
-- **Canvas, localStorage e PWA:** gráficos, persistência e cache offline.
-- **Node.js e Playwright:** testes do motor e da interface.
-
-**Roteiro de fala:**
-
-“Eu sou Bernardo Benízio. O HTML organiza os elementos que o usuário vê e utiliza. O CSS e o Tailwind definem o layout e preservam os efeitos visuais originais. O JavaScript conecta os botões às operações. Para os cálculos, usamos Math.js, com uma camada própria que restringe as expressões aceitas. O Canvas desenha os gráficos. O armazenamento local guarda histórico e preferências quando está disponível. Por fim, o service worker mantém os recursos necessários em cache para uso offline após o primeiro carregamento.”
-
-**Demonstração:** mostrar a lista de arquivos no README, se necessário; não abrir código extenso durante a fala.
-
----
-
-## Slide 5 — Arquitetura
-
-**Responsável:** Lucas Nery Miranda<br>
-**Tempo estimado:** 1 minuto
-
-**Conteúdo visual:**
-
-```text
-Entrada e botões → validação da árvore matemática → motor Math.js
-                                         ↓
-             resultados / matrizes / funções / cálculo numérico
-                         ↓                         ↓
-                   display e histórico        tabela e Canvas
-```
-
-- `math-engine.js`: funções permitidas, tipos e limites.
-- Arquivos próprios para gráficos, matrizes, combinatória e cálculo.
-- `storage.js`: persistência tolerante a falhas e exibição segura.
-
-**Roteiro de fala:**
-
-“Vou explicar o caminho de uma expressão. Primeiro, o sistema recebe o texto digitado ou os botões pressionados. Em seguida, o motor analisa a árvore da expressão e aceita somente os elementos previstos. A expressão é calculada e o resultado segue para o display ou para o módulo correspondente. O histórico é uma etapa separada: se não puder ser salvo, o cálculo continua válido. Gráficos e cálculo numérico usam o mesmo mecanismo, mas exigem resultados reais e finitos nos pontos avaliados.”
-
-**Demonstração:** usar o diagrama; mencionar que atribuições, acesso a propriedades e execução arbitrária não são sintaxe da calculadora.
-
----
-
-## Slide 6 — Calculadora científica
-
-**Responsável:** Gustavo Henrique da Silva Cunha<br>
-**Tempo estimado:** 1 minuto
-
-**Conteúdo visual:**
-
-| Expressão          | Resultado |
-| ------------------ | --------- |
-| `2+2`              | `4`       |
-| `(5+3)*2`          | `16`      |
-| `sqrt(81)`         | `9`       |
-| `5!`               | `120`     |
-| `log(100)`         | `2`       |
-| `ln(e)`            | `1`       |
-| `sin(pi/2)` em RAD | `1`       |
-
-**Roteiro de fala:**
-
-“A calculadora aceita tanto o teclado virtual quanto uma expressão digitada. Os parênteses e a precedência dos operadores são respeitados. Neste sistema, log sem base significa base dez, e ln significa logaritmo natural. A trigonometria começa em radianos, com opção de graus. Também definimos a porcentagem de forma explícita: dez por cento é 0,1, portanto duzentos vezes dez por cento resulta em vinte. Uma entrada incompleta recebe uma mensagem, e o usuário pode corrigi-la sem perder a expressão.”
-
-**Demonstração:** se houver tempo, mostrar `log(100)=2` e a seleção RAD/DEG; reservar a sequência principal para o slide 13.
-
----
-
-## Slide 7 — Funções e gráficos
+## Slide 1 — Abertura
 
 **Responsável:** Lucas Felipe dos Santos Silva<br>
-**Tempo estimado:** 1 minuto
+**Tempo estimado:** 35 segundos
 
 **Conteúdo visual:**
 
-- Entrada `f(x)=x^2`; avaliação em `x=2` produz `4`.
-- Tabela de `−2` a `2`, passo `1`: `4, 1, 0, 1, 4`.
-- Canvas desenha amostras da função.
-- Zoom, movimentação horizontal e exportação PNG.
-- Até quatro funções separadas por `;`; tabela da primeira.
+- **Calculadora Científica A3 — Squad Tech Pro**.
+- Matemática Computacional · Centro Universitário UNA · Contagem.
+- Professor André Rodrigues.
+- Exibir a lista dos seis integrantes e respectivos RAs da identificação acima; a lista representa a equipe completa, não a escala de falas.
 
-**Roteiro de fala:**
+**Roteiro de fala — Lucas Felipe:**
 
-“Eu sou Lucas Felipe. No módulo de funções, escrevemos uma expressão usando x. O sistema pode avaliá-la em um ponto, gerar uma tabela e desenhar o gráfico. Para x ao quadrado, esperamos uma parábola e valores simétricos em torno do zero. O desenho é produzido por amostragem numérica; ele não é uma prova de todas as propriedades da função. Em pontos como zero na função um sobre x, o sistema apresenta valor indefinido e evita conectar amostras através de lacunas detectadas.”
+“Boa noite. Eu sou Lucas Felipe e apresento, com a Squad Tech Pro, a Calculadora Científica A3. O projeto reúne conteúdos de Matemática Computacional em uma aplicação web. Nossa equipe tem seis integrantes. Hoje, Gustavo, Bernardo, Caio, Vitor e eu faremos a apresentação oral. Vamos explicar o funcionamento e demonstrar cálculos, gráficos, matrizes e derivadas.”
 
-**Demonstração:** abrir **02//FUNÇÕES & GRÁFICO**, informar `x^2`, x `2`, mínimo `-2`, máximo `2`, passo `1`; atualizar e conferir os cinco pares.
+**Demonstração:** nenhuma neste slide; manter a capa visível.
 
 ---
 
-## Slide 8 — Matrizes e álgebra
+## Slide 2 — Problema e objetivo
 
-**Responsável:** Vitor de Paiva Cleto<br>
-**Tempo estimado:** 1min15s
+**Responsável:** Gustavo Henrique da Silva Cunha<br>
+**Tempo estimado:** 45 segundos
 
 **Conteúdo visual:**
 
-```text
-A = [1 2]   B = [5 6]   A+B = [ 6  8]   A×B = [19 22]
-    [3 4]       [7 8]         [10 12]         [43 50]
-```
+- Integrar cálculos científicos e ferramentas da disciplina em um só sistema.
+- Corrigir falhas reais: arquivos não carregados, `ln(e)` inválido e erro de histórico que afetava contas simples.
+- Conferir resultados conhecidos e informar entradas inválidas.
+- Preservar a interface Cyberpunk Neon e seus temas.
 
-- `det(A)=−2`; inversa `[[−2,1],[1.5,−0.5]]`.
-- Soma, subtração, escalar, produto, transposta e inversa.
-- Traço, posto, escalonamento e sistemas `Ax=B`.
-- Campos de 1×1 até 12×12; validação de dimensões e singularidade.
+**Roteiro de fala — Gustavo:**
 
-**Roteiro de fala:**
+“Eu sou Gustavo. O objetivo é reunir diferentes atividades matemáticas em uma ferramenta acessível no navegador. Durante a revisão, foram reproduzidos problemas de carregamento dos arquivos, de avaliação do logaritmo natural e de gravação do histórico. Nesse último caso, uma conta correta podia terminar mostrando ERRO. A correção separou o cálculo da persistência e acrescentou validações. Queremos que o usuário obtenha um resultado verificável ou uma mensagem que permita corrigir a entrada.”
 
-“Eu sou Vitor de Paiva. As matrizes representam dados e transformações e também permitem resolver sistemas lineares. A soma combina elementos da mesma posição, enquanto o produto usa linhas de A e colunas de B. Por isso, as dimensões precisam ser compatíveis. Para a matriz deste exemplo, o determinante é menos dois, então ela tem inversa. Uma matriz singular não pode ser invertida e recebe uma mensagem. Também ampliamos o módulo com traço, posto, escalonamento e solução de sistemas com uma coluna de termos independentes.”
-
-**Demonstração:** preencher A com `1,2;3,4`, calcular determinante e comparar com `−2`; a soma será repetida na demonstração integrada.
+**Demonstração:** nenhuma; os casos são problemas documentados, sem atribuição de culpa a integrantes.
 
 ---
 
-## Slide 9 — Combinatória e estatística
-
-**Responsável:** Caio de Aquino Lima<br>
-**Tempo estimado:** 1 minuto
-
-**Conteúdo visual:**
-
-| Exemplo                                    | Resultado |
-| ------------------------------------------ | --------- |
-| Fatorial de 5                              | `120`     |
-| Arranjo A(5,3)                             | `60`      |
-| Combinação C(5,3)                          | `10`      |
-| Permutação de 5 com grupos repetidos 2 e 2 | `30`      |
-| Média de `1,2,3`                           | `2`       |
-| Variância amostral de `1,2,3`              | `1`       |
-
-Estatística inclui mediana, moda, quartis, desvios, pesos, covariância e regressão linear.
-
-**Roteiro de fala:**
-
-“Na combinatória, a diferença entre arranjo e combinação é considerar ou não a ordem dos elementos escolhidos. Para escolher três entre cinco, temos dez combinações e sessenta arranjos. O módulo usa BigInt para preservar inteiros exatos nos limites definidos. Na estatística, podemos fornecer uma lista de dados e obter medidas descritivas. É importante distinguir a variância populacional, que divide por n, da amostral, que divide por n menos um. Quando fornecemos duas listas, o painel também calcula correlação e regressão linear.”
-
-**Demonstração:** indicar o módulo 04 e o painel **ESTATÍSTICA** na calculadora; usar `1,2,3` se houver tempo.
-
----
-
-## Slide 10 — Cálculo numérico
+## Slide 3 — Tecnologias e arquitetura
 
 **Responsável:** Bernardo Benízio de Almeida<br>
-**Tempo estimado:** 1min15s
+**Tempo estimado:** 50 segundos
+
+**Conteúdo visual:**
+
+| Tecnologia | Papel |
+|---|---|
+| HTML5 | Estrutura, campos e botões |
+| CSS3 e Tailwind compilado | Temas, layout responsivo e efeitos neon |
+| JavaScript e Math.js | Eventos, validação e processamento matemático |
+| Canvas e localStorage | Gráficos e persistência tolerante a falhas |
+| Manifest e service worker | Recursos locais e cache offline |
+
+```text
+Entrada → validação da expressão → motor matemático
+                                → resultado / tabela / gráfico
+                                → histórico, quando disponível
+```
+
+**Roteiro de fala — Bernardo:**
+
+“Eu sou Bernardo. O HTML organiza a interface, enquanto o CSS e o Tailwind mantêm o layout e o estilo neon. O JavaScript conecta os controles aos módulos. O motor usa Math.js com uma camada que limita a sintaxe e as funções aceitas, sem executar comandos JavaScript fornecidos pelo usuário. O Canvas desenha os gráficos e o armazenamento local guarda os registros quando está disponível. Se esse armazenamento falhar, o cálculo continua funcionando. Os arquivos também são organizados por responsabilidade para facilitar a manutenção.”
+
+**Demonstração:** nenhuma; apontar o fluxo no diagrama.
+
+---
+
+## Slide 4 — Calculadora científica
+
+**Responsável:** Caio de Aquino Lima<br>
+**Tempo estimado:** 50 segundos
+
+**Conteúdo visual:**
+
+| Expressão | Resultado |
+|---|---|
+| `2+2` | `4` |
+| `(5+3)*2` | `16` |
+| `sqrt(81)` | `9` |
+| `5!` | `120` |
+| `log(100)` / `ln(e)` | `2` / `1` |
+| `sin(pi/2)` em RAD | `1` |
+
+- Parênteses, precedência, teclado virtual/físico e mensagens de erro.
+- RAD/DEG e porcentagem explícita: `200*10% = 20`.
+
+**Roteiro de fala — Caio:**
+
+“Eu sou Caio. A calculadora aceita expressões digitadas e os botões da interface. Ela respeita os parênteses e a precedência: cinco mais três, entre parênteses, vezes dois resulta em dezesseis. Também oferece raízes, fatoriais, logaritmos e trigonometria. Log sem base usa base dez, enquanto ln é o logaritmo natural. O modo inicial é radianos, com opção de graus. Quando a expressão está incompleta ou a operação não tem resultado finito, uma mensagem orienta a correção, sem registrar um resultado inválido no histórico.”
+
+**Demonstração:** nenhuma neste momento; executar a conta básica e a raiz no slide 8.
+
+---
+
+## Slide 5 — Funções e gráficos
+
+**Responsável:** Lucas Felipe dos Santos Silva<br>
+**Tempo estimado:** 55 segundos
 
 **Conteúdo visual:**
 
 Para `f(x)=x^2`:
 
-- `f′(3)=6`; `f″(3)=2`.
-- Integral definida de 0 a 1: `1/3 ≈ 0.3333333333`.
-- Diferenças finitas para as duas derivadas.
-- Integração por Simpson ou trapézios, com 1000 subdivisões.
-- Bisseção, Newton e secante para raízes.
-- Derivada simbólica disponível em RAD: `2*x`.
+| x | −2 | −1 | 0 | 1 | 2 |
+|---|---|---|---|---|---|
+| f(x) | 4 | 1 | 0 | 1 | 4 |
 
-**Roteiro de fala:**
+- Avaliação em `x=2`: `4`.
+- Gráfico esperado: parábola com vértice na origem.
+- Até quatro curvas, zoom, movimentação horizontal e exportação PNG.
+- Pontos indefinidos são tratados; o desenho é uma amostragem.
 
-“No cálculo numérico, aproximamos a derivada observando valores próximos de um ponto. Para x ao quadrado em três, a primeira derivada deve ser seis e a segunda deve ser dois. Para a integral, o sistema divide o intervalo em partes e utiliza Simpson ou trapézios. Esses resultados são aproximações e dependem da função e da discretização. Não tratamos uma aproximação como uma integral simbólica exata. Também oferecemos métodos para encontrar raízes, com limite de iterações e mensagem quando não ocorre convergência.”
+**Roteiro de fala — Lucas Felipe:**
 
-**Demonstração:** preparar `x^2`, x₀ `3`, a `0`, b `1`; explicar os valores antes de executar no slide 13.
+“No módulo de funções, eu posso escrever uma expressão em x, avaliar um ponto e gerar uma tabela. Para x ao quadrado, o valor em dois é quatro. A tabela mostra a simetria: menos dois e dois produzem quatro, enquanto menos um e um produzem um. O gráfico representa essa relação como uma parábola. Podemos ajustar a visualização e exportar a imagem. É importante lembrar que o desenho usa amostras numéricas: ele ajuda a interpretar a função, mas não substitui uma análise matemática completa, especialmente perto de descontinuidades.”
 
----
-
-## Slide 11 — Funcionalidades adicionais
-
-**Responsável:** Lucas Felipe dos Santos Silva<br>
-**Tempo estimado:** 1 minuto
-
-**Conteúdo visual:**
-
-| Área          | Exemplo validado                                      |
-| ------------- | ----------------------------------------------------- |
-| Complexos     | `sqrt(-4) = 2i`                                       |
-| Unidades      | `to(unit(0,"degC"),"degF") = 32 degF`                 |
-| Bases         | Decimal `255` → hexadecimal `FF`                      |
-| Finanças      | `compoundInterest(1000,0.1,2) = 1210`                 |
-| Probabilidade | `binomial(10,3,0.5) = 0.1171875`                      |
-| Uso diário    | Ans, M+/M−/MR/MC, favoritos e exportação do histórico |
-
-**Roteiro de fala:**
-
-“As ferramentas adicionais ficam em painéis recolhíveis para manter o teclado principal simples. Os números complexos permitem, por exemplo, representar a raiz quadrada de menos quatro como dois i. Nas conversões, verificamos a compatibilidade das unidades. A conversão de bases usa inteiros exatos. As funções financeiras trabalham com taxas decimais e períodos consistentes; são simulações matemáticas. O catálogo também oferece exemplos de probabilidade e permite localizar uma função pela busca.”
-
-**Demonstração:** mostrar a busca do catálogo e o exemplo de conversão de bases; evitar percorrer todos os exemplos ao vivo.
+**Demonstração:** usar a tabela escrita; o gráfico será gerado no slide 8 com os campos previamente preparados.
 
 ---
 
-## Slide 12 — Interface do sistema
+## Slide 6 — Matrizes e combinatória
 
 **Responsável:** Vitor de Paiva Cleto<br>
-**Tempo estimado:** 45 segundos
+**Tempo estimado:** 55 segundos
 
 **Conteúdo visual:**
 
-- Cyberpunk Neon: ciano, magenta, vermelho e efeitos de brilho originais.
-- Temas claro e escuro com preferência persistida quando possível.
-- Seis abas principais preservadas.
-- Recursos avançados em painéis expansíveis.
-- Layout responsivo e recursos locais para uso offline.
+```text
+A = [1 2]     det(A) = 1×4 − 2×3 = −2
+    [3 4]
+```
 
-**Roteiro de fala:**
+- Matrizes: soma, subtração, produto, escalar, transposta, determinante e inversa.
+- Também há traço, posto, escalonamento e sistemas `Ax=B`.
+- Combinatória: `5!=120`, `A(5,3)=60`, `C(5,3)=10`.
+- Validação de dimensões, singularidade e inteiros; BigInt na combinatória.
 
-“A identidade visual original foi preservada: os painéis, as cores e os efeitos neon continuam reconhecíveis. O usuário pode alternar entre os temas claro e escuro. As seis abas mantêm a divisão principal do sistema, enquanto as ferramentas novas ficam recolhidas até serem necessárias. Em telas menores, os painéis se reorganizam e a navegação pode ser rolada horizontalmente. A instalação como PWA depende do suporte do navegador e de uma origem segura.”
+**Roteiro de fala — Vitor:**
 
-**Demonstração:** alternar o tema e voltar ao escuro; indicar um painel recolhível.
+“Eu sou Vitor. As matrizes permitem organizar dados e representar sistemas lineares. Neste exemplo, o determinante é um vezes quatro menos dois vezes três, portanto menos dois. O módulo também faz as demais operações indicadas e avisa quando as dimensões são incompatíveis ou a matriz não tem inversa. Na combinatória, distinguimos arranjos e combinações: escolher três entre cinco gera sessenta arranjos quando a ordem importa e dez combinações quando ela não importa. O uso de BigInt preserva os resultados inteiros dentro dos limites definidos.”
 
----
-
-## Slide 13 — Demonstração prática integrada
-
-**Responsáveis:** todos, em seis trechos de aproximadamente 30 segundos<br>
-**Tempo estimado:** 3 minutos
-
-**Conteúdo visual:** roteiro e resultados de referência.
-
-| Trecho | Responsável                     | Ações no sistema                                                               | Resultado esperado                                        |
-| ------ | ------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------- |
-| 1      | Lucas Nery Miranda              | Abrir `http://localhost:8000`, aba 01, limpar com C; digitar `2+2` e Enter     | `4`                                                       |
-| 2      | Gustavo Henrique da Silva Cunha | Calcular `sqrt(81)` e depois `ln(e)`                                           | `9` e `1`                                                 |
-| 3      | Lucas Felipe dos Santos Silva   | Aba 02: `x^2`, x `2`, intervalo `−2` a `2`, passo `1`; atualizar               | `f(2)=4`; tabela `4,1,0,1,4`; parábola                    |
-| 4      | Vitor de Paiva Cleto            | Aba 03, ambas 2×2: A=`[[1,2],[3,4]]`, B=`[[5,6],[7,8]]`; A+B e det(A)          | `[[6,8],[10,12]]` e `−2`                                  |
-| 5      | Bernardo Benízio de Almeida     | Aba 05: `x^2`, x₀ `3`, a `0`, b `1`, Simpson; calcular                         | Derivadas ≈ `6` e `2`; integral ≈ `0.3333333333`          |
-| 6      | Caio de Aquino Lima             | Aba 06, localizar `2+2` e `ln(e)`; reutilizar `2+2` pelo botão ↶; pressionar = | Registros corretos; retorno à calculadora e resultado `4` |
-
-**Roteiro de fala:**
-
-**Lucas Nery:** “Vou abrir a calculadora e começar pela operação mais simples. Ao calcular dois mais dois, o resultado é quatro. Esse caso também verifica o funcionamento básico do display e dos eventos.”
-
-**Gustavo:** “Agora eu verifico duas operações científicas. A raiz quadrada de oitenta e um é nove. O logaritmo natural da constante e é um, um dos casos que usamos na regressão dos erros corrigidos.”
-
-**Lucas Felipe:** “Vou representar x ao quadrado. A avaliação em dois retorna quatro. A tabela mostra valores simétricos e o gráfico apresenta a parábola esperada.”
-
-**Vitor:** “Nas matrizes, somo os elementos correspondentes e obtenho seis, oito, dez e doze. O determinante de A deve ser menos dois.”
-
-**Bernardo:** “Para a mesma função x ao quadrado, verifico a derivada em três e a integral de zero a um. Os resultados se aproximam de seis, dois e um terço.”
-
-**Caio:** “Para concluir a sequência, mostro que as operações da calculadora foram registradas. Vou reutilizar dois mais dois. A expressão volta para o campo e pode ser calculada novamente.”
-
-**Demonstração:** seguir a tabela na ordem. O histórico registra operações da calculadora; não afirmar que gráficos ou matrizes geram registros automaticamente. Para as aproximações, aceitar pequenas diferenças nos últimos dígitos. Se o projetor falhar, usar os exemplos e as capturas do README como apoio, sem alegar execução ao vivo.
+**Demonstração:** nenhuma neste slide; o determinante será conferido ao vivo no slide 8.
 
 ---
 
-## Slide 14 — Desafios do desenvolvimento
+## Slide 7 — Cálculo numérico e recursos extras
+
+**Responsáveis:** Bernardo Benízio de Almeida e Caio de Aquino Lima<br>
+**Tempo estimado:** 40 segundos, divididos em 20 segundos para cada um
+
+**Conteúdo visual:**
+
+- Para `f(x)=x^2`: `f′(3)=6`, `f″(3)=2` e integral de 0 a 1 igual a `1/3`.
+- Derivadas e integrais numéricas são aproximações; Simpson e trapézios disponíveis.
+- Complexos: `sqrt(-4)=2i`; estatística: média de `1,2,3` igual a `2`.
+- Conversões, finanças, memória, favoritos e histórico.
+
+**Roteiro de fala — Bernardo (20s):**
+
+“No cálculo numérico, aproximamos derivadas e integrais a partir de valores da função. Para x ao quadrado, esperamos primeira derivada seis em três e integral de zero a um próxima de um terço. A interface distingue essas aproximações de resultados simbólicos.”
+
+**Roteiro de fala — Caio (20s):**
+
+“Nos painéis extras, eu também encontro números complexos, estatística, conversões e fórmulas financeiras. A raiz de menos quatro é dois i, e a média de um, dois e três é dois. Memória, favoritos e histórico ajudam a reutilizar os cálculos.”
+
+**Demonstração:** nenhuma; a derivada será calculada na sequência.
+
+---
+
+## Slide 8 — Demonstração prática
+
+**Responsáveis:** Gustavo, Caio, Lucas Felipe, Vitor e Bernardo, nos trechos abaixo<br>
+**Tempo estimado:** 85 segundos, com campos preparados antes do início
+
+**Conteúdo visual e ações no sistema:**
+
+| Ordem | Apresentador | Tempo | Ação | Resultado esperado |
+|---|---|---|---|---|
+| 1 | Gustavo Henrique da Silva Cunha | 10s | Na aba 01, digitar `2+2` e pressionar Enter | `4` |
+| 2 | Caio de Aquino Lima | 10s | Substituir a expressão por `sqrt(81)` e pressionar Enter | `9` |
+| 3 | Lucas Felipe dos Santos Silva | 15s | Aba 02: conferir `x^2`, x `2`, intervalo `−2` a `2`, passo `1`; clicar em **GERAR TABELA & PLOTAR** | `f(2)=4`, tabela `4,1,0,1,4` e parábola |
+| 4 | Vitor de Paiva Cleto | 25s | Aba 03: conferir A=`[[1,2],[3,4]]`; clicar em **det(A)** | `−2` |
+| 5 | Bernardo Benízio de Almeida | 20s | Aba 05: conferir `x^2`, x₀ `3`, a `0`, b `1`, Simpson; clicar em calcular | Primeira derivada ≈ `6`, segunda ≈ `2`, integral ≈ `0.3333333333` |
+| 6 | Caio de Aquino Lima | 5s | Aba 06: apontar os registros da conta básica e da raiz | `2+2 = 4` e `sqrt(81) = 9` |
+
+**Falas individuais durante os cliques:**
+
+- **Gustavo:** “Começo com dois mais dois: o resultado é quatro.”
+- **Caio, raiz:** “Agora, a raiz quadrada de oitenta e um retorna nove.”
+- **Lucas Felipe:** “Aqui está x ao quadrado: valor quatro em dois e a parábola esperada.”
+- **Vitor:** “Nesta matriz, o determinante calculado é menos dois, como conferimos pela fórmula.”
+- **Bernardo:** “A primeira derivada em três se aproxima de seis; a integral se aproxima de um terço.”
+- **Caio, histórico:** “As duas contas ficaram registradas no histórico.”
+
+**Demonstração:** seguir a ordem da tabela, incluindo as trocas de aba no tempo de cada trecho. O navegador já estará aberto. Mostrar o histórico, sem acrescentar reutilização ou novas contas para não ultrapassar o tempo. O histórico registra as operações da calculadora; não afirmar que ele registra automaticamente gráficos, matrizes ou derivadas. Todos os trechos ao vivo pertencem exclusivamente aos cinco apresentadores identificados acima.
+
+---
+
+## Slide 9 — Resultados e conclusão
 
 **Responsável:** Gustavo Henrique da Silva Cunha<br>
-**Tempo estimado:** 1 minuto
-
-**Conteúdo visual:** problemas reproduzidos durante a revisão técnica.
-
-| Problema observado                                   | Correção aplicada                                    |
-| ---------------------------------------------------- | ---------------------------------------------------- |
-| `style.css` e `script.js` retornavam 404 no Linux    | Nomes e referências padronizados em minúsculas       |
-| `ln(e)` virava uma expressão inválida                | Substituição do avaliador baseado em trocas de texto |
-| Falha no armazenamento fazia `2+2` exibir ERRO       | Separação entre avaliação e persistência             |
-| Fatorial decimal era truncado                        | Validação explícita de inteiro não negativo          |
-| Continuação de resultado complexo perdia precedência | Agrupamento do resultado antes do operador           |
-
-**Roteiro de fala:**
-
-“Os desafios que apresento aqui foram reproduzidos na revisão técnica do projeto. Em sistemas que diferenciam maiúsculas de minúsculas, os nomes dos arquivos impediam o carregamento dos recursos. O avaliador também transformava o logaritmo natural em uma chamada inválida. Outro erro era confundir falha no histórico com falha matemática: uma conta correta podia terminar com a mensagem ERRO se o armazenamento falhasse. A correção separou essas responsabilidades e acrescentou testes específicos. Não estamos atribuindo esses problemas a integrantes individuais.”
-
-**Demonstração:** usar os exemplos documentados; não reintroduzir os defeitos no sistema funcionando.
-
----
-
-## Slide 15 — Resultados alcançados
-
-**Responsável:** Caio de Aquino Lima<br>
-**Tempo estimado:** 1 minuto
+**Tempo estimado:** 35 segundos
 
 **Conteúdo visual:**
 
-- Quinze expressões matemáticas obrigatórias verificadas no motor e na interface.
-- Testes para os seis módulos e os exemplos do catálogo.
-- Histórico corrompido/bloqueado, memória, temas, viewport móvel e recarga offline verificados.
-- Entradas inválidas recebem mensagens; valores não finitos são rejeitados.
-- Documentação separa funcionalidades disponíveis de expansões futuras.
+- Validação registrada: **26 testes matemáticos** e **26 testes de interface**, em Chromium e Firefox.
+- Seis módulos, temas, armazenamento e recarga offline verificados na revisão.
+- Aprendizado: combinar implementação, domínio matemático e conferência de resultados.
+- Limites documentados: aproximações numéricas e recursos simbólicos/gráficos ainda futuros.
 
-**Roteiro de fala:**
+**Roteiro de fala — Gustavo:**
 
-“Os resultados são sustentados por testes com respostas conhecidas. As quinze expressões obrigatórias incluem operações básicas, raízes, logaritmos, trigonometria e fatorial. Também verificamos o comportamento da interface e condições como armazenamento indisponível. O uso offline foi testado recarregando a página sem rede, depois de preparar o cache. Isso não significa que qualquer navegador ou sistema operacional foi testado fisicamente. Os ambientes efetivamente executados e os limites estão registrados no README. Integração simbólica geral e gráficos tridimensionais, por exemplo, continuam fora desta versão.”
+“Na validação registrada, passaram vinte e seis testes matemáticos e vinte e seis testes de interface, distribuídos entre Chromium e Firefox. Isso inclui os módulos demonstrados e situações de falha no armazenamento. O principal aprendizado é que implementar uma fórmula exige conferir entradas, domínio e resultado. A versão preserva a identidade visual e documenta seus limites, para que aproximações numéricas não sejam confundidas com soluções exatas.”
 
-**Demonstração:** mostrar o resumo dos testes executados no terminal ou README; evitar repetir toda a bateria durante a aula.
+**Demonstração:** nenhuma; o resumo dos testes e as limitações estão no README.
 
 ---
 
-## Slide 16 — Conclusão
+## Slide 10 — Agradecimentos
 
-**Responsável:** Lucas Nery Miranda<br>
-**Tempo estimado:** 1 minuto
+**Responsável:** Vitor de Paiva Cleto<br>
+**Tempo estimado:** 5 segundos
 
 **Conteúdo visual:**
 
-- Matemática computacional exige modelo, implementação e verificação.
-- Uma interface correta precisa informar domínios e aproximações.
-- O motor central facilita a integração dos módulos.
-- Próximos passos: métodos adaptativos, mais recursos simbólicos e gráficos especializados.
+**Obrigado! — Squad Tech Pro**<br>
+Professor André Rodrigues e turma de Matemática Computacional.<br>
+[Repositório do projeto](https://github.com/vtvpc/Calculadora-Cientifica-A3).
 
-**Roteiro de fala:**
+**Roteiro de fala — Vitor:**
 
-“A principal conclusão é que transformar uma fórmula em software exige mais do que escrever a operação. Precisamos definir a entrada, conhecer o domínio e conferir a saída. Ao relacionar expressões, matrizes, gráficos e métodos numéricos, conseguimos observar como conteúdos da disciplina se conectam. O projeto também nos permite discutir a diferença entre um resultado exato e uma aproximação. Como continuidade, propomos métodos numéricos adaptativos e ferramentas simbólicas adicionais, sempre acompanhados de testes e sem abandonar a identidade visual do sistema.”
+“Obrigado, professor André e turma. Estamos à disposição para perguntas.”
 
-**Demonstração:** voltar à tela inicial, com um resultado correto no display.
-
----
-
-## Slide 17 — Agradecimentos
-
-**Responsáveis:** Lucas Felipe dos Santos Silva e Vitor de Paiva Cleto<br>
-**Tempo estimado:** 30 segundos, 15 segundos para cada um
-
-**Conteúdo visual:**
-
-**Obrigado!**<br>
-Squad Tech Pro · Calculadora Científica A3<br>
-Agradecimentos ao professor André Rodrigues e à turma de Matemática Computacional.<br>
-Código, instruções e testes: [vtvpc/Calculadora-Cientifica-A3](https://github.com/vtvpc/Calculadora-Cientifica-A3).
-
-**Roteiro de fala:**
-
-**Lucas Felipe:** “Eu agradeço ao professor André Rodrigues e à turma pela atenção. Esperamos que os exemplos tenham mostrado como os conteúdos matemáticos podem ser aplicados em uma ferramenta interativa.”
-
-**Vitor:** “Eu agradeço em nome da Squad Tech Pro. O repositório reúne o código, as instruções e os testes para que os resultados possam ser reproduzidos. Estamos à disposição para perguntas e sugestões.”
-
-**Demonstração:** manter o endereço do repositório visível para consulta.
+**Demonstração:** nenhuma.
 
 ---
 
-## Notas para ensaio e conferência
+## Conferência do roteiro e orientações de ensaio
 
-- Tempo dos slides: `45+45+45+60+60+60+60+75+60+75+60+45+180+60+60+60+30 = 1080 segundos`, ou **18 minutos**.
-- A participação de cada integrante inclui sua passagem no slide 13. O slide 17 é compartilhado.
-- A identificação acadêmica tem como fonte o PDF original, preservado. Os perfis GitHub de todos os integrantes não foram confirmados; isso não impede a divisão nominal das falas.
-- As falas sobre arquitetura e correções descrevem o código entregue e problemas reproduzidos. A equipe pode ajustar expressões pessoais após ensaio, sem atribuir experiências não documentadas a integrantes específicos.
-- Limites numéricos e funções futuras devem ser consultados no README antes de adicionar qualquer demonstração ao roteiro.
+- **Slides:** 10. **Soma:** `35+45+50+50+55+55+40+85+35+5 = 455 segundos = 7min35s`.
+- **Demonstração:** `10+10+15+25+20+5 = 85 segundos`; os cliques estão incluídos, não são tempo adicional.
+- **Participação oral:** Gustavo `45+10+35=90s`; Bernardo `50+20+20=90s`; Caio `50+20+10+5=85s`; Lucas Felipe `35+55+15=105s`; Vitor `55+25+5=85s`. Total: `455s`.
+- A lista oficial mantém os seis integrantes e seus RAs. **Lucas Nery não apresenta nenhum slide, não tem fala e não participa da demonstração ao vivo**; sua contribuição técnica e organizacional está registrada separadamente.
+- Ensaiar com cronômetro, campos prontos e somente os exemplos da tabela. Não acrescentar instalação da PWA, execução completa de testes ou outras ferramentas durante o tempo reservado.
+- Exemplos matemáticos correspondem aos testes existentes. A revisão do roteiro deve conferir também as ações reais no navegador; resultados numéricos podem variar nos últimos dígitos.
+- Se houver falha de projeção, usar as capturas do README como apoio e informar que se trata de uma captura, sem alegar execução ao vivo.
+- O PDF acadêmico permanece preservado; as responsabilidades atualizadas de Lucas Nery foram informadas por ele para esta entrega.
