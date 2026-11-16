@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Squad Tech — Calculadora Científica A3",
+  "short_name": "CyberCalc A3",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#12161f",
+  "theme_color": "#12161f",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
