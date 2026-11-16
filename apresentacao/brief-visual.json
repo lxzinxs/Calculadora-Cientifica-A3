@@ -1,5 +1,5 @@
 {
-  "estado": "Conta Canva conectada pelo plugin oficial. Design criado; correções no rascunho revisadas nas dez páginas, aguardando aprovação explícita para salvar conforme exigência da ferramenta oficial.",
+  "estado": "Conta Canva conectada pelo plugin oficial. Correções aprovadas e salvas no Canva, conforme confirmação do responsável pelo projeto.",
   "fonte": "apresentacao/apresentacao.md",
   "fonte_sha256": "26b1f7f451c90076f330fe66f46cdba895fad8c92bfcace80a8f9d3e8d2e1655",
   "identidade": {
@@ -198,13 +198,17 @@
   ],
   "canva": {
     "design_id": "DAHbGPRwi-o",
-    "link_design": "https://www.canva.com/d/V7unw7nd3uazSId",
-    "link_rascunho": "https://www.canva.com/d/9QjM0kk1AYwvrk2",
-    "estado": "rascunho revisado; salvamento pendente de aprovação",
+    "link_design": "https://www.canva.com/design/DAHbGPRwi-o/IQdD9J-uf7H1sjaztFyWLA/edit",
+    "estado": "correções aprovadas e salvas",
     "animacoes_aplicadas": false,
     "notas_inseridas": false,
     "exportacoes_via_canva": [],
-    "limites_integracao": "Sem operações expostas para inserir notas, animar páginas/elementos, alterar família tipográfica ou exportar PPTX/PDF/MP4."
+    "limites_integracao": "Sem operações expostas para inserir notas, animar páginas/elementos, alterar família tipográfica ou exportar PPTX/PDF/MP4.",
+    "correcoes_confirmadas": [
+      "Slide 1: montagem defeituosa substituída por captura real, com nomes e RAs corretos.",
+      "Slide 3: textos corrigidos e reorganizados.",
+      "Demais slides preservados."
+    ]
   },
   "entregas_locais": {
     "html_animado": "apresentacao-animada.html",

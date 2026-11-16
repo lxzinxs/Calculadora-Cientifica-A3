@@ -8,11 +8,16 @@ O [roteiro aprovado](apresentacao.md) permanece como fonte das falas, responsabi
 
 A conta foi conectada pelo plugin oficial Canva. O design foi criado e corrigido por MCP, com textos nativos editáveis e capturas reais da calculadora. Os dez slides foram conferidos pelas prévias retornadas pela integração.
 
-- [Rascunho revisado para aprovação](https://www.canva.com/d/9QjM0kk1AYwvrk2).
-- [Design na conta Canva](https://www.canva.com/d/V7unw7nd3uazSId).
+- [Apresentação editável no Canva — link definitivo](https://www.canva.com/design/DAHbGPRwi-o/IQdD9J-uf7H1sjaztFyWLA/edit).
 - [Prévia das dez páginas](previa-canva.jpg).
 
-**Salvamento pendente:** a ferramenta oficial de salvar exige aprovação explícita após mostrar a prévia. Até essa aprovação, as correções ficam no rascunho; o design salvo pode exibir a versão inicial gerada. Utilize a prévia revisada para avaliar a entrega.
+**Correções aprovadas e salvas no Canva**, conforme confirmação do responsável pelo projeto:
+
+- **Slide 1:** montagem defeituosa substituída por captura real da calculadora, com nomes e RAs corretos.
+- **Slide 3:** textos corrigidos e reorganizados.
+- **Demais slides:** preservados.
+
+Os arquivos locais e a prévia permanecem preservados como entregas da etapa anterior; não foram recriados nem reexportados após essas correções no Canva. O link definitivo acima identifica a versão editável atualizada.
 
 ## Arquivos disponíveis
 
@@ -61,7 +66,7 @@ Lucas Nery permanece na capa com RA 4261212244 e nas responsabilidades técnicas
 
 A integração disponível não expõe comandos para escrever notas, aplicar animações/transições, trocar família tipográfica ou exportar arquivos. Portanto, **nenhuma animação no Canva foi aplicada ou validada** e não foi gerado PPTX.
 
-Após salvar o rascunho aprovado:
+Para os recursos adicionais ainda não aplicados pela integração:
 
 1. Copie, sem reescrever, o roteiro de fala de cada slide de `apresentacao.md` para as notas do apresentador. A tecla `N` no HTML local já mostra o conteúdo integral correspondente.
 2. Para aproximar a tipografia do sistema, selecione Inter nos textos e JetBrains Mono nas fórmulas, caso disponíveis gratuitamente na conta. Não altere nomes e RAs.
