@@ -36,16 +36,16 @@ O processamento usa **Math.js com uma camada de validação própria**. Não há
 
 A identificação abaixo foi conferida na **página 1 do [documento acadêmico da primeira entrega](1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf)**. O PDF chama o grupo de **Squad Tech**; a interface utiliza o complemento **Pro**.
 
-| Integrante                      | RA         | GitHub                             |
-| ------------------------------- | ---------- | ---------------------------------- |
-| Lucas Nery Miranda              | 4261212244 | Não confirmado                     |
-| Gustavo Henrique da Silva Cunha | 4261214511 | Não confirmado                     |
-| Caio de Aquino Lima             | 4261211879 | Não confirmado                     |
-| Bernardo Benízio de Almeida     | 42621691   | Não confirmado                     |
-| Lucas Felipe dos Santos Silva   | 4261213698 | Não confirmado                     |
-| Vitor de Paiva Cleto            | 4261214103 | [@vtvpc](https://github.com/vtvpc) |
+| Integrante | RA | Responsabilidades no projeto |
+|---|---|---|
+| Lucas Nery Miranda | 4261212244 | Correção de erros e bugs; manutenção e melhorias do código; expansão e revisão das funcionalidades matemáticas; organização da apresentação; elaboração e revisão das falas; apoio técnico e preparação da calculadora. O PDF também registra liderança técnica e “Dev Matriz”. Não participa oralmente nem da demonstração ao vivo. |
+| Gustavo Henrique da Silva Cunha | 4261214511 | Lógica do sistema, conforme a atribuição “Dev logica” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Caio de Aquino Lima | 4261211879 | Análise do projeto, conforme a atribuição “Dev analista” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Bernardo Benízio de Almeida | 42621691 | Núcleo do sistema, conforme a atribuição “Dev core” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Lucas Felipe dos Santos Silva | 4261213698 | Módulo de funções, conforme a atribuição “Dev B / Modulo de funções” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Vitor de Paiva Cleto | 4261214103 | Desenvolvimento da versão inicial que serviu de base às melhorias posteriores, conforme informação confirmada nesta revisão e os commits originais. Módulo de matrizes, conforme a atribuição “Dev C / Modulo de matrizes” no PDF. |
 
-**Conferência dos dados:** o RA de Bernardo foi preservado exatamente como aparece no PDF, sem completar dígitos por suposição. O nome de Caio teve apenas a capitalização normalizada. O perfil `vtvpc` corresponde ao autor “Vitor De Paiva” no histórico Git original e ao perfil público “Vitor Paiva”. Não foram atribuídos perfis aos demais integrantes sem evidência.
+**Conferência dos dados:** o RA de Bernardo foi mantido literalmente como `42621691`, sem completar dígitos. O nome de Caio teve apenas a capitalização normalizada. O perfil [@vtvpc](https://github.com/vtvpc) corresponde ao autor “Vitor De Paiva” no histórico original e ao perfil público “Vitor Paiva”. Os perfis dos demais integrantes não foram confirmados.
 
 **Instituição:** Centro Universitário UNA · Contagem.<br>
 **Disciplina:** Matemática Computacional.<br>
@@ -53,20 +53,11 @@ A identificação abaixo foi conferida na **página 1 do [documento acadêmico d
 **Líder técnico indicado no documento:** Lucas Nery Miranda.<br>
 **Primeira entrega:** 20/10/2026, conforme a capa do PDF.
 
-### Responsabilidades técnicas e de organização — Lucas Nery Miranda
+**Fontes e limites das atribuições:** a página 1 do PDF registra as funções originais da equipe. As responsabilidades atualizadas de Lucas Nery e a autoria da versão inicial por Vitor foram informadas nesta revisão. O histórico Git registra os primeiros envios por Vitor De Paiva (`ce781c0` e `3ca56e9`) e as correções e a documentação posteriores por Lucas Nery Miranda. As funções do PDF são atribuições documentadas, não prova de autoria de cada trecho do código atual. Para os demais integrantes, entregas individuais mais detalhadas precisam de validação pelo grupo; não foram inferidas pelo assunto apresentado.
 
-**Lucas Nery Miranda — RA 4261212244** integra oficialmente a Squad Tech Pro e informa as seguintes responsabilidades no projeto:
+**Desenvolvimento e apresentação são responsabilidades distintas.** Todos os seis integrantes permanecem na equipe. Lucas Nery atua na parte técnica e na organização, sem fala, slide para apresentar ou participação na demonstração ao vivo. A exposição oral cabe a Gustavo, Bernardo, Caio, Lucas Felipe e Vitor. O tema de um slide não atribui automaticamente a seu apresentador o desenvolvimento da funcionalidade.
 
-- Correção de erros e bugs do código.
-- Manutenção e melhorias das funcionalidades da calculadora.
-- Revisão do funcionamento dos cálculos e do sistema.
-- Organização da apresentação acadêmica.
-- Elaboração, revisão e distribuição das falas dos integrantes.
-- Apoio técnico e preparação do sistema para a demonstração, antes da apresentação.
-
-**Lucas Nery não participará das falas nem da demonstração ao vivo e não possui slide atribuído para apresentar.** Sua participação é técnica e de organização. A apresentação oral e a operação do sistema durante a demonstração ficam com **Gustavo Henrique da Silva Cunha, Bernardo Benízio de Almeida, Caio de Aquino Lima, Lucas Felipe dos Santos Silva e Vitor de Paiva Cleto**.
-
-O [roteiro acadêmico](apresentacao/apresentacao.md) foi reduzido para **10 slides e duração prevista de 7min35s**, incluindo **85 segundos de demonstração**. Os tempos incluem falas, transições e ações no sistema; perguntas ficam fora dessa previsão. As responsabilidades acima foram informadas pelo próprio integrante e complementam os dados acadêmicos do PDF, que permanece inalterado.
+O [roteiro acadêmico](apresentacao/apresentacao.md) possui **10 slides e duração prevista de 7min35s (455 segundos)**, incluindo **100 segundos de demonstração**. Vitor tem uma participação oral breve: 25 segundos no slide da versão inicial e matrizes, mais 15 segundos na demonstração. Os outros quatro apresentadores conduzem a maior parte da exposição. Os tempos incluem falas, transições e ações no sistema; perguntas ficam fora dessa previsão.
 
 ## 🛠 Tecnologias utilizadas
 
@@ -331,6 +322,6 @@ apresentacao/apresentacao.md   # 10 slides, 7min35s e divisão de falas
 
 Projeto da **Squad Tech Pro**, identificado como **Squad Tech** no documento acadêmico, desenvolvido para a disciplina **Matemática Computacional**, no **Centro Universitário UNA · Contagem**, com professor responsável **André Rodrigues**.
 
-O [PDF da primeira entrega](1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf) permanece inalterado e é a fonte dos dados acadêmicos desta documentação. O [roteiro da apresentação](apresentacao/apresentacao.md) contém 10 slides, exemplos testados e duração prevista de 7min35s. Preserva os seis integrantes na identificação, registra a contribuição técnica e organizacional de Lucas Nery e distribui todas as falas e demonstrações entre os outros cinco integrantes.
+O [PDF da primeira entrega](1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf) permanece inalterado e é a fonte dos dados acadêmicos desta documentação. O [roteiro da apresentação](apresentacao/apresentacao.md) contém 10 slides, exemplos testados e duração prevista de 7min35s. Preserva os seis integrantes na identificação, registra as responsabilidades documentadas de todos e distribui as falas e demonstrações entre cinco apresentadores, com participação breve de Vitor e sem participação oral de Lucas Nery.
 
 Math.js, Font Awesome, Inter e JetBrains Mono são projetos de terceiros. Suas licenças estão incluídas em `assets/`. Nenhuma licença desses componentes implica uma licença nova para o código acadêmico da equipe.

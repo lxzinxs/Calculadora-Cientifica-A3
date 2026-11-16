@@ -3,48 +3,51 @@
 **Equipe:** Squad Tech Pro · **Disciplina:** Matemática Computacional<br>
 **Instituição:** Centro Universitário UNA · Contagem<br>
 **Professor:** André Rodrigues<br>
-**Formato:** roteiro em Markdown, **10 slides** · **Duração prevista: 7min35s (455 segundos)**, incluindo **85 segundos de demonstração**. Perguntas ficam fora desse tempo.
+**Formato:** roteiro em Markdown, **10 slides** · **Duração prevista: 7min35s (455 segundos)**, incluindo **100 segundos de demonstração**. Perguntas ficam fora desse tempo.
 
 ## Integrantes e participação
 
 Nomes e RAs conferidos na página 1 do [PDF original da primeira entrega](../1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf). O documento identifica o grupo como **Squad Tech**; a interface utiliza **Squad Tech Pro**. O RA de Bernardo foi mantido literalmente e o nome de Caio teve apenas a capitalização normalizada.
 
-| Integrante | RA | Participação oral | Tempo total previsto |
-|---|---|---|---|
-| Lucas Nery Miranda | 4261212244 | Não apresentará; atuação técnica e de organização descrita abaixo | 0s |
-| Gustavo Henrique da Silva Cunha | 4261214511 | Slides 2 e 9; trecho do slide 8 | 1min30s |
-| Bernardo Benízio de Almeida | 42621691 | Slide 3; trechos dos slides 7 e 8 | 1min30s |
-| Caio de Aquino Lima | 4261211879 | Slide 4; trechos dos slides 7 e 8 | 1min25s |
-| Lucas Felipe dos Santos Silva | 4261213698 | Slides 1 e 5; trecho do slide 8 | 1min45s |
-| Vitor de Paiva Cleto | 4261214103 | Slides 6 e 10; trecho do slide 8 | 1min25s |
+| Integrante | RA | Responsabilidades no projeto |
+|---|---|---|
+| Lucas Nery Miranda | 4261212244 | Correção de erros e bugs; manutenção e melhorias do código; expansão e revisão das funcionalidades matemáticas; organização da apresentação; elaboração e revisão das falas; apoio técnico e preparação da calculadora. O PDF também registra liderança técnica e “Dev Matriz”. Não participa oralmente nem da demonstração ao vivo. |
+| Gustavo Henrique da Silva Cunha | 4261214511 | Lógica do sistema, conforme a atribuição “Dev logica” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Caio de Aquino Lima | 4261211879 | Análise do projeto, conforme a atribuição “Dev analista” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Bernardo Benízio de Almeida | 42621691 | Núcleo do sistema, conforme a atribuição “Dev core” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Lucas Felipe dos Santos Silva | 4261213698 | Módulo de funções, conforme a atribuição “Dev B / Modulo de funções” na primeira entrega. O detalhamento das entregas individuais precisa de validação pelo grupo. |
+| Vitor de Paiva Cleto | 4261214103 | Desenvolvimento da versão inicial que serviu de base às melhorias posteriores, conforme informação confirmada nesta revisão e os commits originais. Módulo de matrizes, conforme a atribuição “Dev C / Modulo de matrizes” no PDF. |
 
-### Responsabilidades técnicas e de organização — Lucas Nery Miranda
+**Fontes e limites das atribuições:** a página 1 do PDF registra as funções originais da equipe. As responsabilidades atualizadas de Lucas Nery e a autoria da versão inicial por Vitor foram informadas nesta revisão. O histórico Git registra os primeiros envios por Vitor De Paiva (`ce781c0` e `3ca56e9`) e as correções e a documentação posteriores por Lucas Nery Miranda. As funções do PDF são atribuições documentadas, não prova de autoria de cada trecho do código atual. Para os demais integrantes, entregas individuais mais detalhadas precisam de validação pelo grupo; não foram inferidas pelo assunto apresentado.
 
-**Lucas Nery Miranda — RA 4261212244**, conforme suas responsabilidades informadas para esta entrega:
+**Desenvolvimento e apresentação são responsabilidades distintas.** Todos os seis integrantes permanecem na equipe. Lucas Nery atua na parte técnica e na organização, sem fala, slide para apresentar ou participação na demonstração ao vivo. A exposição oral cabe a Gustavo, Bernardo, Caio, Lucas Felipe e Vitor. O tema de um slide não atribui automaticamente a seu apresentador o desenvolvimento da funcionalidade.
 
-- Correção de erros e bugs do código.
-- Manutenção e melhorias das funcionalidades da calculadora.
-- Revisão do funcionamento dos cálculos e do sistema.
-- Organização da apresentação acadêmica.
-- Elaboração, revisão e distribuição das falas dos integrantes.
-- Apoio técnico e preparação do sistema para a demonstração, antes da apresentação.
+### Participação oral e demonstração
 
-**Lucas Nery integra oficialmente a equipe, mas não terá falas, slides para apresentar nem participação na demonstração ao vivo.** Toda a exposição oral e a operação do sistema durante a apresentação serão realizadas por Gustavo, Bernardo, Caio, Lucas Felipe e Vitor. As responsabilidades acima são um registro de sua contribuição técnica e organizacional, não uma tarefa de apresentação.
+| Apresentador | Slides e trechos | Tempo total previsto |
+|---|---|---|
+| Gustavo Henrique da Silva Cunha | Slides 1, 2 e 10; conta básica no slide 8 | 1min45s |
+| Bernardo Benízio de Almeida | Slide 3; trechos dos slides 7 e 8 | 1min40s |
+| Caio de Aquino Lima | Slide 4; trechos dos slides 7 e 8 | 1min35s |
+| Lucas Felipe dos Santos Silva | Slides 5 e 9; gráfico no slide 8 | 1min55s |
+| Vitor de Paiva Cleto | Slide 6 e matriz no slide 8 | 40s |
+
+Lucas Nery Miranda não integra a escala oral: **0 segundos**. A preparação técnica anterior não cria responsabilidade de operar o sistema durante a apresentação. Vitor participa menos que cada um dos outros quatro apresentadores; sua contribuição ao desenvolvimento é reconhecida independentemente do tempo de fala.
 
 ## Cronograma dos 10 slides
 
 | Slide | Tema | Apresentador(es) | Duração | Intervalo acumulado |
 |---|---|---|---|---|
-| 1 | Abertura | Lucas Felipe | 35s | 0:00–0:35 |
-| 2 | Problema e objetivo | Gustavo | 45s | 0:35–1:20 |
-| 3 | Tecnologias e arquitetura | Bernardo | 50s | 1:20–2:10 |
-| 4 | Calculadora científica | Caio | 50s | 2:10–3:00 |
-| 5 | Funções e gráficos | Lucas Felipe | 55s | 3:00–3:55 |
-| 6 | Matrizes e combinatória | Vitor | 55s | 3:55–4:50 |
-| 7 | Cálculo numérico e recursos extras | Bernardo (20s) e Caio (20s) | 40s | 4:50–5:30 |
-| 8 | Demonstração prática | Os cinco apresentadores | 85s | 5:30–6:55 |
-| 9 | Resultados e conclusão | Gustavo | 35s | 6:55–7:30 |
-| 10 | Agradecimentos | Vitor | 5s | 7:30–7:35 |
+| 1 | Abertura | Gustavo | 40s | 0:00–0:40 |
+| 2 | Introdução e objetivos | Gustavo | 35s | 0:40–1:15 |
+| 3 | Tecnologias e arquitetura | Bernardo | 50s | 1:15–2:05 |
+| 4 | Calculadora científica | Caio | 50s | 2:05–2:55 |
+| 5 | Funções e gráficos | Lucas Felipe | 55s | 2:55–3:50 |
+| 6 | Versão inicial e matrizes | Vitor | 25s | 3:50–4:15 |
+| 7 | Cálculo numérico e recursos extras | Bernardo (25s) e Caio (20s) | 45s | 4:15–5:00 |
+| 8 | Demonstração prática | Cinco apresentadores | 100s | 5:00–6:40 |
+| 9 | Resultados e conclusão | Lucas Felipe | 40s | 6:40–7:20 |
+| 10 | Agradecimentos | Gustavo | 15s | 7:20–7:35 |
 
 Os tempos incluem fala, transições e ações na tela. São uma previsão para ensaio, não uma medição de uma apresentação já realizada.
 
@@ -61,41 +64,48 @@ Os tempos incluem fala, transições e ações na tela. São uma previsão para 
 
 ## Slide 1 — Abertura
 
-**Responsável:** Lucas Felipe dos Santos Silva<br>
+**Responsável:** Gustavo Henrique da Silva Cunha<br>
+**Tempo estimado:** 40 segundos
+
+**Conteúdo visual:**
+
+**Calculadora Científica A3 — Squad Tech Pro**<br>
+Matemática Computacional · Centro Universitário UNA · Contagem · Professor André Rodrigues.
+
+| Integrante | RA |
+|---|---|
+| Lucas Nery Miranda | 4261212244 |
+| Gustavo Henrique da Silva Cunha | 4261214511 |
+| Caio de Aquino Lima | 4261211879 |
+| Bernardo Benízio de Almeida | 42621691 |
+| Lucas Felipe dos Santos Silva | 4261213698 |
+| Vitor de Paiva Cleto | 4261214103 |
+
+**Roteiro de fala — Gustavo:**
+
+“Boa noite. Eu sou Gustavo e apresento a Calculadora Científica A3, da Squad Tech Pro. O projeto foi desenvolvido em equipe: a versão inicial de Vitor serviu de base para as melhorias posteriores, com as atribuições de cada integrante registradas na documentação. Lucas Nery contribui com correções, revisão e organização, mas não participará oralmente. Hoje, Bernardo, Caio, Lucas Felipe, Vitor e eu vamos explicar o sistema e mostrar exemplos.”
+
+**Demonstração:** nenhuma; manter a capa e os seis integrantes visíveis. A identificação da equipe não é uma atribuição de falas.
+
+---
+
+## Slide 2 — Introdução e objetivos
+
+**Responsável:** Gustavo Henrique da Silva Cunha<br>
 **Tempo estimado:** 35 segundos
 
 **Conteúdo visual:**
 
-- **Calculadora Científica A3 — Squad Tech Pro**.
-- Matemática Computacional · Centro Universitário UNA · Contagem.
-- Professor André Rodrigues.
-- Exibir a lista dos seis integrantes e respectivos RAs da identificação acima; a lista representa a equipe completa, não a escala de falas.
-
-**Roteiro de fala — Lucas Felipe:**
-
-“Boa noite. Eu sou Lucas Felipe e apresento, com a Squad Tech Pro, a Calculadora Científica A3. O projeto reúne conteúdos de Matemática Computacional em uma aplicação web. Nossa equipe tem seis integrantes. Hoje, Gustavo, Bernardo, Caio, Vitor e eu faremos a apresentação oral. Vamos explicar o funcionamento e demonstrar cálculos, gráficos, matrizes e derivadas.”
-
-**Demonstração:** nenhuma neste slide; manter a capa visível.
-
----
-
-## Slide 2 — Problema e objetivo
-
-**Responsável:** Gustavo Henrique da Silva Cunha<br>
-**Tempo estimado:** 45 segundos
-
-**Conteúdo visual:**
-
-- Integrar cálculos científicos e ferramentas da disciplina em um só sistema.
-- Corrigir falhas reais: arquivos não carregados, `ln(e)` inválido e erro de histórico que afetava contas simples.
-- Conferir resultados conhecidos e informar entradas inválidas.
-- Preservar a interface Cyberpunk Neon e seus temas.
+- Integrar cálculos científicos e conteúdos da disciplina em uma aplicação web.
+- Corrigir falhas de carregamento, avaliação de expressões e histórico.
+- Conferir resultados e orientar a correção de entradas inválidas.
+- Preservar a identidade Cyberpunk Neon.
 
 **Roteiro de fala — Gustavo:**
 
-“Eu sou Gustavo. O objetivo é reunir diferentes atividades matemáticas em uma ferramenta acessível no navegador. Durante a revisão, foram reproduzidos problemas de carregamento dos arquivos, de avaliação do logaritmo natural e de gravação do histórico. Nesse último caso, uma conta correta podia terminar mostrando ERRO. A correção separou o cálculo da persistência e acrescentou validações. Queremos que o usuário obtenha um resultado verificável ou uma mensagem que permita corrigir a entrada.”
+“A proposta é reunir operações científicas, gráficos, matrizes e cálculo numérico no navegador. Na revisão, foram reproduzidos erros de carregamento, do logaritmo natural e do histórico. Uma falha ao salvar podia até fazer uma conta correta mostrar ERRO. O objetivo das melhorias foi corrigir essas causas, conferir os resultados matemáticos e manter a interface original, com mensagens que ajudem o usuário quando a entrada for inválida.”
 
-**Demonstração:** nenhuma; os casos são problemas documentados, sem atribuição de culpa a integrantes.
+**Demonstração:** nenhuma; executar os exemplos somente no slide 8.
 
 ---
 
@@ -181,35 +191,30 @@ Para `f(x)=x^2`:
 
 ---
 
-## Slide 6 — Matrizes e combinatória
+## Slide 6 — Versão inicial e matrizes
 
 **Responsável:** Vitor de Paiva Cleto<br>
-**Tempo estimado:** 55 segundos
+**Tempo estimado:** 25 segundos
 
 **Conteúdo visual:**
 
-```text
-A = [1 2]     det(A) = 1×4 − 2×3 = −2
-    [3 4]
-```
-
-- Matrizes: soma, subtração, produto, escalar, transposta, determinante e inversa.
-- Também há traço, posto, escalonamento e sistemas `Ax=B`.
-- Combinatória: `5!=120`, `A(5,3)=60`, `C(5,3)=10`.
-- Validação de dimensões, singularidade e inteiros; BigInt na combinatória.
+- Vitor: desenvolvimento da versão inicial, base para a evolução coletiva.
+- Atribuição documentada no PDF: módulo de matrizes.
+- Exemplo: `A=[[1,2],[3,4]]`; `det(A)=1×4−2×3=−2`.
+- Combinatória disponível: `5!=120`, `A(5,3)=60`, `C(5,3)=10`.
 
 **Roteiro de fala — Vitor:**
 
-“Eu sou Vitor. As matrizes permitem organizar dados e representar sistemas lineares. Neste exemplo, o determinante é um vezes quatro menos dois vezes três, portanto menos dois. O módulo também faz as demais operações indicadas e avisa quando as dimensões são incompatíveis ou a matriz não tem inversa. Na combinatória, distinguimos arranjos e combinações: escolher três entre cinco gera sessenta arranjos quando a ordem importa e dez combinações quando ela não importa. O uso de BigInt preserva os resultados inteiros dentro dos limites definidos.”
+“Eu sou Vitor e desenvolvi a versão inicial da calculadora, que serviu de base para a evolução do projeto em equipe. Minha atribuição no documento também inclui matrizes. Na demonstração, vou conferir uma operação simples: o determinante desta matriz, que é menos dois.”
 
-**Demonstração:** nenhuma neste slide; o determinante será conferido ao vivo no slide 8.
+**Demonstração:** apenas apontar o exemplo escrito; a operação ao vivo será feita por Vitor em seu trecho de 15 segundos no slide 8. A presença da combinatória neste slide não atribui seu desenvolvimento a Vitor.
 
 ---
 
 ## Slide 7 — Cálculo numérico e recursos extras
 
 **Responsáveis:** Bernardo Benízio de Almeida e Caio de Aquino Lima<br>
-**Tempo estimado:** 40 segundos, divididos em 20 segundos para cada um
+**Tempo estimado:** 45 segundos: 25 segundos para Bernardo e 20 segundos para Caio
 
 **Conteúdo visual:**
 
@@ -218,9 +223,9 @@ A = [1 2]     det(A) = 1×4 − 2×3 = −2
 - Complexos: `sqrt(-4)=2i`; estatística: média de `1,2,3` igual a `2`.
 - Conversões, finanças, memória, favoritos e histórico.
 
-**Roteiro de fala — Bernardo (20s):**
+**Roteiro de fala — Bernardo (25s):**
 
-“No cálculo numérico, aproximamos derivadas e integrais a partir de valores da função. Para x ao quadrado, esperamos primeira derivada seis em três e integral de zero a um próxima de um terço. A interface distingue essas aproximações de resultados simbólicos.”
+“No cálculo numérico, aproximamos derivadas e integrais a partir de valores da função. Para x ao quadrado, esperamos primeira derivada seis em três e integral de zero a um próxima de um terço. A interface distingue essas aproximações de resultados simbólicos. Também há métodos numéricos para encontrar raízes, com limite de iterações e aviso quando não convergem.”
 
 **Roteiro de fala — Caio (20s):**
 
@@ -233,36 +238,36 @@ A = [1 2]     det(A) = 1×4 − 2×3 = −2
 ## Slide 8 — Demonstração prática
 
 **Responsáveis:** Gustavo, Caio, Lucas Felipe, Vitor e Bernardo, nos trechos abaixo<br>
-**Tempo estimado:** 85 segundos, com campos preparados antes do início
+**Tempo estimado:** 100 segundos (1min40s), com campos preparados antes do início
 
 **Conteúdo visual e ações no sistema:**
 
 | Ordem | Apresentador | Tempo | Ação | Resultado esperado |
 |---|---|---|---|---|
-| 1 | Gustavo Henrique da Silva Cunha | 10s | Na aba 01, digitar `2+2` e pressionar Enter | `4` |
+| 1 | Gustavo Henrique da Silva Cunha | 15s | Na aba 01, digitar `2+2` e pressionar Enter | `4` |
 | 2 | Caio de Aquino Lima | 10s | Substituir a expressão por `sqrt(81)` e pressionar Enter | `9` |
-| 3 | Lucas Felipe dos Santos Silva | 15s | Aba 02: conferir `x^2`, x `2`, intervalo `−2` a `2`, passo `1`; clicar em **GERAR TABELA & PLOTAR** | `f(2)=4`, tabela `4,1,0,1,4` e parábola |
-| 4 | Vitor de Paiva Cleto | 25s | Aba 03: conferir A=`[[1,2],[3,4]]`; clicar em **det(A)** | `−2` |
-| 5 | Bernardo Benízio de Almeida | 20s | Aba 05: conferir `x^2`, x₀ `3`, a `0`, b `1`, Simpson; clicar em calcular | Primeira derivada ≈ `6`, segunda ≈ `2`, integral ≈ `0.3333333333` |
-| 6 | Caio de Aquino Lima | 5s | Aba 06: apontar os registros da conta básica e da raiz | `2+2 = 4` e `sqrt(81) = 9` |
+| 3 | Lucas Felipe dos Santos Silva | 20s | Aba 02: conferir `x^2`, x `2`, intervalo `−2` a `2`, passo `1`; clicar em **GERAR TABELA & PLOTAR** | `f(2)=4`, tabela `4,1,0,1,4` e parábola |
+| 4 | Vitor de Paiva Cleto | 15s | Aba 03: conferir A=`[[1,2],[3,4]]`; clicar em **det(A)** | `−2` |
+| 5 | Bernardo Benízio de Almeida | 25s | Aba 05: conferir `x^2`, x₀ `3`, a `0`, b `1`, Simpson; clicar em calcular | Primeira derivada ≈ `6`, segunda ≈ `2`, integral ≈ `0.3333333333` |
+| 6 | Caio de Aquino Lima | 15s | Aba 06: apontar os registros da conta básica e da raiz | `2+2 = 4` e `sqrt(81) = 9` |
 
 **Falas individuais durante os cliques:**
 
-- **Gustavo:** “Começo com dois mais dois: o resultado é quatro.”
+- **Gustavo:** “Começo pela operação básica. Digito dois mais dois e pressiono Enter: o resultado é quatro.”
 - **Caio, raiz:** “Agora, a raiz quadrada de oitenta e um retorna nove.”
-- **Lucas Felipe:** “Aqui está x ao quadrado: valor quatro em dois e a parábola esperada.”
-- **Vitor:** “Nesta matriz, o determinante calculado é menos dois, como conferimos pela fórmula.”
-- **Bernardo:** “A primeira derivada em três se aproxima de seis; a integral se aproxima de um terço.”
-- **Caio, histórico:** “As duas contas ficaram registradas no histórico.”
+- **Lucas Felipe:** “Vou gerar o gráfico de x ao quadrado. Em dois, o valor é quatro. A tabela é simétrica e o desenho mostra a parábola esperada.”
+- **Vitor:** “Vou calcular o determinante da matriz preparada. Um vezes quatro menos dois vezes três resulta em menos dois, como aparece na tela.”
+- **Bernardo:** “Para x ao quadrado, calculo a derivada no ponto três. A primeira se aproxima de seis e a segunda de dois. A integral entre zero e um se aproxima de um terço.”
+- **Caio, histórico:** “No histórico, podemos conferir dois mais dois igual a quatro e a raiz quadrada igual a nove. As operações da calculadora ficaram registradas.”
 
-**Demonstração:** seguir a ordem da tabela, incluindo as trocas de aba no tempo de cada trecho. O navegador já estará aberto. Mostrar o histórico, sem acrescentar reutilização ou novas contas para não ultrapassar o tempo. O histórico registra as operações da calculadora; não afirmar que ele registra automaticamente gráficos, matrizes ou derivadas. Todos os trechos ao vivo pertencem exclusivamente aos cinco apresentadores identificados acima.
+**Demonstração:** seguir a ordem, incluindo cliques e trocas de aba no tempo de cada trecho. O navegador já estará aberto e os campos preparados. Não acrescentar novas contas ou instalação da PWA. O histórico registra operações da calculadora; não afirmar que ele registra automaticamente gráficos, matrizes ou derivadas. Vitor participa por aproximadamente 15 segundos nesta etapa. Lucas Nery não apresenta nem opera o sistema durante a demonstração ao vivo.
 
 ---
 
 ## Slide 9 — Resultados e conclusão
 
-**Responsável:** Gustavo Henrique da Silva Cunha<br>
-**Tempo estimado:** 35 segundos
+**Responsável:** Lucas Felipe dos Santos Silva<br>
+**Tempo estimado:** 40 segundos
 
 **Conteúdo visual:**
 
@@ -271,9 +276,9 @@ A = [1 2]     det(A) = 1×4 − 2×3 = −2
 - Aprendizado: combinar implementação, domínio matemático e conferência de resultados.
 - Limites documentados: aproximações numéricas e recursos simbólicos/gráficos ainda futuros.
 
-**Roteiro de fala — Gustavo:**
+**Roteiro de fala — Lucas Felipe:**
 
-“Na validação registrada, passaram vinte e seis testes matemáticos e vinte e seis testes de interface, distribuídos entre Chromium e Firefox. Isso inclui os módulos demonstrados e situações de falha no armazenamento. O principal aprendizado é que implementar uma fórmula exige conferir entradas, domínio e resultado. A versão preserva a identidade visual e documenta seus limites, para que aproximações numéricas não sejam confundidas com soluções exatas.”
+“Na validação registrada, passaram vinte e seis testes matemáticos e vinte e seis testes de interface, distribuídos entre Chromium e Firefox. Isso inclui os módulos demonstrados e situações de falha no armazenamento. O principal aprendizado é que implementar uma fórmula exige conferir entradas, domínio e resultado. A evolução partiu da versão inicial e do trabalho em equipe. O sistema preserva a identidade visual e documenta seus limites, para que aproximações numéricas não sejam confundidas com soluções exatas.”
 
 **Demonstração:** nenhuma; o resumo dos testes e as limitações estão no README.
 
@@ -281,8 +286,8 @@ A = [1 2]     det(A) = 1×4 − 2×3 = −2
 
 ## Slide 10 — Agradecimentos
 
-**Responsável:** Vitor de Paiva Cleto<br>
-**Tempo estimado:** 5 segundos
+**Responsável:** Gustavo Henrique da Silva Cunha<br>
+**Tempo estimado:** 15 segundos
 
 **Conteúdo visual:**
 
@@ -290,9 +295,9 @@ A = [1 2]     det(A) = 1×4 − 2×3 = −2
 Professor André Rodrigues e turma de Matemática Computacional.<br>
 [Repositório do projeto](https://github.com/vtvpc/Calculadora-Cientifica-A3).
 
-**Roteiro de fala — Vitor:**
+**Roteiro de fala — Gustavo:**
 
-“Obrigado, professor André e turma. Estamos à disposição para perguntas.”
+“Em nome da Squad Tech Pro, agradeço ao professor André Rodrigues e à turma pela atenção. O repositório reúne o código, as instruções e os testes. Estamos à disposição para perguntas e sugestões.”
 
 **Demonstração:** nenhuma.
 
@@ -300,11 +305,13 @@ Professor André Rodrigues e turma de Matemática Computacional.<br>
 
 ## Conferência do roteiro e orientações de ensaio
 
-- **Slides:** 10. **Soma:** `35+45+50+50+55+55+40+85+35+5 = 455 segundos = 7min35s`.
-- **Demonstração:** `10+10+15+25+20+5 = 85 segundos`; os cliques estão incluídos, não são tempo adicional.
-- **Participação oral:** Gustavo `45+10+35=90s`; Bernardo `50+20+20=90s`; Caio `50+20+10+5=85s`; Lucas Felipe `35+55+15=105s`; Vitor `55+25+5=85s`. Total: `455s`.
-- A lista oficial mantém os seis integrantes e seus RAs. **Lucas Nery não apresenta nenhum slide, não tem fala e não participa da demonstração ao vivo**; sua contribuição técnica e organizacional está registrada separadamente.
-- Ensaiar com cronômetro, campos prontos e somente os exemplos da tabela. Não acrescentar instalação da PWA, execução completa de testes ou outras ferramentas durante o tempo reservado.
-- Exemplos matemáticos correspondem aos testes existentes. A revisão do roteiro deve conferir também as ações reais no navegador; resultados numéricos podem variar nos últimos dígitos.
-- Se houver falha de projeção, usar as capturas do README como apoio e informar que se trata de uma captura, sem alegar execução ao vivo.
-- O PDF acadêmico permanece preservado; as responsabilidades atualizadas de Lucas Nery foram informadas por ele para esta entrega.
+- **Slides:** 10. **Soma:** `40+35+50+50+55+25+45+100+40+15 = 455 segundos = 7min35s`.
+- **Demonstração:** `15+10+20+15+25+15 = 100 segundos`; cliques e transições estão incluídos.
+- **Participação oral:** Gustavo `40+35+15+15=105s`; Bernardo `50+25+25=100s`; Caio `50+20+10+15=95s`; Lucas Felipe `55+20+40=115s`; Vitor `25+15=40s`. Total: `455s`.
+- **Lucas Nery:** permanece na equipe com RA `4261212244`, sem fala, slide para apresentar ou participação na demonstração ao vivo. Suas responsabilidades técnicas e organizacionais são registradas separadamente.
+- **Vitor:** 40 segundos no total, menos que cada um dos demais apresentadores. Sua versão inicial é reconhecida no slide 6; a operação matricial fica no trecho breve do slide 8. Nenhuma funcionalidade adicional foi atribuída a ele sem confirmação.
+- As responsabilidades de desenvolvimento e a divisão oral são informações distintas. Para os demais integrantes, as atribuições vêm do PDF; detalhes de entregas individuais ainda dependem de validação pelo grupo.
+- Ensaiar com cronômetro e campos prontos. A duração é prevista, não uma medição de apresentação já realizada. Perguntas ficam fora dos 7min35s.
+- Os exemplos correspondem ao sistema e aos testes existentes. Resultados numéricos podem variar nos últimos dígitos. Se o código mudar, conferir as demonstrações novamente.
+- Em caso de falha de projeção, usar as capturas do README como apoio e identificá-las como capturas, sem alegar execução ao vivo.
+- O PDF acadêmico permanece preservado. O histórico Git e as informações confirmadas complementam suas atribuições sem inventar autoria individual.
