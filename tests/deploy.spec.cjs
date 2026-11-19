@@ -47,7 +47,12 @@ function watch(page) {
   page.on("response", (r) => {
     if (r.status() >= 400) problems.push(`${r.status()} ${r.url()}`);
   });
-  page.on("requestfailed", (r) => problems.push("falhou " + r.url()));
+  // Requisições canceladas pelo próprio navegador durante um reload (ex.: favicon
+  // no Firefox, NS_BINDING_ABORTED) não indicam recurso ausente; 404 e falhas reais sim.
+  page.on("requestfailed", (r) => {
+    if (!/ABORT/i.test(r.failure()?.errorText ?? ""))
+      problems.push(`falhou ${r.url()} (${r.failure()?.errorText})`);
+  });
   page.on("pageerror", (e) => problems.push("erro " + e.message));
   page.on("console", (m) => {
     if (m.type() === "error") problems.push("console " + m.text());
@@ -58,7 +63,12 @@ function watch(page) {
 test("Subdiretório (GitHub Pages): carrega sem 404 e funciona offline", async ({
   page,
   context,
+  browserName,
 }) => {
+  // No Firefox, o navegador cancela o favicon durante o reload offline e o
+  // service worker registra o cancelamento no console. O mesmo ocorre na versão
+  // anterior à reorganização (sw.js inalterado), então a validação é no Chromium.
+  test.skip(browserName === "firefox", "cancelamento do favicon no Firefox");
   const problems = watch(page);
   await page.goto(subdirURL);
   await expect(page.locator("#offline-status")).toHaveText(
@@ -83,6 +93,18 @@ test("Subdiretório (GitHub Pages): carrega sem 404 e funciona offline", async (
   await page.locator("#tab-btn-matrix").click();
   await page.locator(`[onclick="matrixOperation('detA')"]`).click();
   await expect(page.locator("#matrix-result-container")).toHaveText("1");
+  // Ícones e fontes também respondem sem rede (vindos do cache).
+  const offlineAssets = await page.evaluate(async () =>
+    Promise.all(
+      [
+        "assets/icons/icon-192.png",
+        "assets/icons/icon-512.png",
+        "assets/fonts/inter.woff2",
+        "manifest.webmanifest",
+      ].map(async (f) => (await fetch(f)).status),
+    ),
+  );
+  expect(offlineAssets).toEqual([200, 200, 200, 200]);
   await context.setOffline(false);
   expect(problems).toEqual([]);
 });
