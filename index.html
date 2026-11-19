@@ -6,12 +6,12 @@
     <title>Calculadora Científica</title>
     <meta name="theme-color" content="#12161f" />
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="icon" href="assets/icon-192.png" />
-    <link rel="stylesheet" href="assets/utilities.css" />
-    <link rel="stylesheet" href="assets/icons.css" />
-    <link rel="stylesheet" href="assets/fonts.css" />
+    <link rel="icon" href="assets/icons/icon-192.png" />
+    <link rel="stylesheet" href="assets/css/utilities.css" />
+    <link rel="stylesheet" href="assets/css/icons.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
     <!-- External CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/styles/style.css" />
   </head>
   <body
     class="font-sans min-h-screen flex flex-col selection:bg-cyber-cyan selection:text-cyber-bg"
@@ -1186,18 +1186,18 @@
     </footer>
 
     <!-- Logic Engine JS -->
-    <script src="assets/math.js"></script>
-    <script src="math-engine.js"></script>
-    <script src="storage.js"></script>
-    <script src="numerical.js"></script>
-    <script src="graph-scale.js"></script>
-    <script src="script.js"></script>
-    <script src="graphs.js"></script>
-    <script src="matrices.js"></script>
-    <script src="combinatorics.js"></script>
-    <script src="calculus.js"></script>
-    <script src="advanced.js"></script>
-    <script src="interface.js"></script>
-    <script src="pwa.js"></script>
+    <script src="assets/vendor/math.js"></script>
+    <script src="src/js/core/math-engine.js"></script>
+    <script src="src/js/core/storage.js"></script>
+    <script src="src/js/modules/numerical.js"></script>
+    <script src="src/js/modules/graph-scale.js"></script>
+    <script src="src/js/ui/script.js"></script>
+    <script src="src/js/modules/graphs.js"></script>
+    <script src="src/js/modules/matrices.js"></script>
+    <script src="src/js/modules/combinatorics.js"></script>
+    <script src="src/js/modules/calculus.js"></script>
+    <script src="src/js/modules/advanced.js"></script>
+    <script src="src/js/ui/interface.js"></script>
+    <script src="src/js/ui/pwa.js"></script>
   </body>
 </html>

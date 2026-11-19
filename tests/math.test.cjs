@@ -1,8 +1,8 @@
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const E = require("../math-engine"),
-  N = require("../numerical"),
-  A = require("../advanced");
+const E = require("../src/js/core/math-engine"),
+  N = require("../src/js/modules/numerical"),
+  A = require("../src/js/modules/advanced");
 const close = (a, b, tol = 1e-10) =>
   assert.ok(Math.abs(a - b) <= tol * Math.max(1, Math.abs(b)), `${a} ≠ ${b}`);
 const required = [

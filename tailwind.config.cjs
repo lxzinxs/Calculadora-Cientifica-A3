@@ -22,4 +22,4 @@ module.exports = {
     },
   },
 };
-module.exports.content = ["./index.html", "./*.js"];
+module.exports.content = ["./index.html", "./src/js/**/*.js"];

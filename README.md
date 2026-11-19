@@ -34,7 +34,7 @@ O processamento usa **Math.js com uma camada de validação própria**. Não há
 
 ## 👥 Equipe de Desenvolvimento — Squad Tech Pro
 
-A identificação abaixo foi conferida na **página 1 do [documento acadêmico da primeira entrega](1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf)**. O PDF chama o grupo de **Squad Tech**; a interface utiliza o complemento **Pro**.
+A identificação abaixo foi conferida na **página 1 do [documento acadêmico da primeira entrega](docs/academico/1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf)**. O PDF chama o grupo de **Squad Tech**; a interface utiliza o complemento **Pro**.
 
 | Integrante | RA | Responsabilidades no projeto |
 |---|---|---|
@@ -281,29 +281,47 @@ Na revisão de **18/11/2026**, foram executados:
 ## Organização dos arquivos
 
 ```text
-index.html                    # Interface e seis abas originais
-style.css                     # Temas e efeitos Cyberpunk Neon
-script.js                     # Calculadora, teclado, temas e navegação
-math-engine.js                # Math.js restrito, convenções e limites
-storage.js                    # Histórico, persistência e exportação
-numerical.js                  # Métodos numéricos reutilizáveis
-graphs.js                     # Tabela, Canvas, zoom, pan e PNG
-matrices.js                   # Campos e operações matriciais
-combinatorics.js               # Combinatória com BigInt
-calculus.js                   # Interface de cálculo e raízes
-advanced.js                   # Estatística, equações, bases e triângulos
-interface.js                  # Catálogo e painéis avançados, memória e favoritos
-manifest.webmanifest          # Metadados PWA e ícones locais
-pwa.js / sw.js                 # Registro e cache offline
-assets/                       # Bundle, CSS compilado, fontes, ícones e capturas
-scripts/build-assets.cjs       # Cópia das dependências distribuídas localmente
-tailwind.config.cjs            # Configuração visual original do Tailwind
-package.json / package-lock.json
-playwright.config.cjs
-tests/                        # Testes matemáticos e de navegador
-apresentacao/apresentacao.md   # 10 slides, 7min35s e divisão de falas
-…pdf                          # Primeira entrega acadêmica, preservada
+Calculadora-Cientifica-A3/
+├── index.html                  # Interface e seis abas
+├── sw.js                       # Service worker (na raiz para controlar todo o site)
+├── manifest.webmanifest        # Metadados PWA e ícones
+├── src/
+│   ├── js/
+│   │   ├── core/
+│   │   │   ├── math-engine.js  # Math.js restrito, convenções e limites
+│   │   │   └── storage.js      # Histórico, persistência e exportação
+│   │   ├── modules/
+│   │   │   ├── numerical.js    # Métodos numéricos reutilizáveis
+│   │   │   ├── graph-scale.js  # Escala e numeração dos eixos do gráfico
+│   │   │   ├── graphs.js       # Tabela, Canvas, zoom, pan e PNG
+│   │   │   ├── matrices.js     # Campos e operações matriciais
+│   │   │   ├── combinatorics.js# Combinatória com BigInt
+│   │   │   ├── calculus.js     # Interface de cálculo e raízes
+│   │   │   └── advanced.js     # Estatística, equações, bases e triângulos
+│   │   └── ui/
+│   │       ├── script.js       # Calculadora, teclado, temas e navegação
+│   │       ├── interface.js    # Catálogo, painéis avançados, memória e favoritos
+│   │       └── pwa.js          # Registro do cache offline
+│   └── styles/
+│       ├── style.css           # Temas Light/Dark e efeitos Cyberpunk Neon
+│       └── tailwind.css        # Entrada do Tailwind (compilada pelo build)
+├── assets/
+│   ├── css/                    # CSS gerado: utilitários Tailwind, ícones e fontes
+│   ├── fonts/                  # Inter, JetBrains Mono, Font Awesome e licenças
+│   ├── icons/                  # Ícones PWA 192/512
+│   ├── vendor/                 # Bundle do Math.js e licença
+│   └── screenshots/            # Capturas usadas neste README
+├── docs/academico/             # Primeira entrega acadêmica (PDF)
+├── apresentacao/               # Roteiro, slides, vídeo, PDF e recursos visuais
+├── tests/                      # Testes Node (node:test) e de navegador (Playwright)
+│   └── helpers/                # Auditoria de contraste WCAG
+├── scripts/build-assets.cjs    # Cópia das dependências distribuídas localmente
+├── tailwind.config.cjs
+├── playwright.config.cjs
+└── package.json / package-lock.json
 ```
+
+O `index.html` carrega os scripts na ordem original: `assets/vendor/math.js`, `math-engine.js`, `storage.js`, `numerical.js`, `graph-scale.js`, `script.js`, os módulos das abas (`graphs.js`, `matrices.js`, `combinatorics.js`, `calculus.js`, `advanced.js`), `interface.js` e, por último, `pwa.js`. Os módulos `math-engine.js`, `numerical.js`, `advanced.js` e `graph-scale.js` também são importados pelos testes em Node.
 
 ## Limitações conhecidas e funcionalidades futuras
 
@@ -323,6 +341,6 @@ apresentacao/apresentacao.md   # 10 slides, 7min35s e divisão de falas
 
 Projeto da **Squad Tech Pro**, identificado como **Squad Tech** no documento acadêmico, desenvolvido para a disciplina **Matemática Computacional**, no **Centro Universitário UNA · Contagem**, com professor responsável **André Rodrigues**.
 
-O [PDF da primeira entrega](1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf) permanece inalterado e é a fonte dos dados acadêmicos desta documentação. O [roteiro da apresentação](apresentacao/apresentacao.md) contém 10 slides, exemplos testados e duração prevista de 7min35s. Preserva os seis integrantes na identificação, registra as responsabilidades documentadas de todos e distribui as falas e demonstrações entre cinco apresentadores, com participação breve de Vitor e sem participação oral de Lucas Nery.
+O [PDF da primeira entrega](docs/academico/1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf) permanece inalterado e é a fonte dos dados acadêmicos desta documentação. O [roteiro da apresentação](apresentacao/apresentacao.md) contém 10 slides, exemplos testados e duração prevista de 7min35s. Preserva os seis integrantes na identificação, registra as responsabilidades documentadas de todos e distribui as falas e demonstrações entre cinco apresentadores, com participação breve de Vitor e sem participação oral de Lucas Nery.
 
 Math.js, Font Awesome, Inter e JetBrains Mono são projetos de terceiros. Suas licenças estão incluídas em `assets/`. Nenhuma licença desses componentes implica uma licença nova para o código acadêmico da equipe.
