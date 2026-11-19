@@ -321,7 +321,7 @@ Calculadora-Cientifica-A3/
 └── package.json / package-lock.json
 ```
 
-Os scripts são carregados pelo `index.html` nesta ordem: `assets/vendor/math.js` → `core` → `modules` → `ui`. Os módulos `math-engine.js`, `numerical.js`, `advanced.js` e `graph-scale.js` também são importados pelos testes em Node.
+O `index.html` carrega os scripts na ordem original: `assets/vendor/math.js`, `math-engine.js`, `storage.js`, `numerical.js`, `graph-scale.js`, `script.js`, os módulos das abas (`graphs.js`, `matrices.js`, `combinatorics.js`, `calculus.js`, `advanced.js`), `interface.js` e, por último, `pwa.js`. Os módulos `math-engine.js`, `numerical.js`, `advanced.js` e `graph-scale.js` também são importados pelos testes em Node.
 
 ## Limitações conhecidas e funcionalidades futuras
 
