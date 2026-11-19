@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Uma calculadora científica web de alto desempenho desenvolvida com uma estética **Cyberpunk Neon / Dark Tech**, estruturada em múltiplos módulos de computação avançada e suporte completo a **Modo Escuro (Dark) e Modo Claro (Light)**.",
   "scripts": {
-    "build": "node scripts/build-assets.cjs && tailwindcss -i assets/input.css -o assets/utilities.css --minify",
+    "build": "node scripts/build-assets.cjs && tailwindcss -i src/styles/tailwind.css -o assets/css/utilities.css --minify",
     "test": "node --test tests/*.test.cjs",
     "test:browser": "playwright test",
     "serve": "python3 -m http.server 8000"

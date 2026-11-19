@@ -7,7 +7,7 @@
 
 ## Integrantes e participação
 
-Nomes e RAs conferidos na página 1 do [PDF original da primeira entrega](../1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf). O documento identifica o grupo como **Squad Tech**; a interface utiliza **Squad Tech Pro**. O RA de Bernardo foi mantido literalmente e o nome de Caio teve apenas a capitalização normalizada.
+Nomes e RAs conferidos na página 1 do [PDF original da primeira entrega](../docs/academico/1%C2%AA%20Entrega%20%C2%B7%20Squad%20Tech%20%C2%B7%20Matema%CC%81tica%20Computacional.pdf). O documento identifica o grupo como **Squad Tech**; a interface utiliza **Squad Tech Pro**. O RA de Bernardo foi mantido literalmente e o nome de Caio teve apenas a capitalização normalizada.
 
 | Integrante | RA | Responsabilidades no projeto |
 |---|---|---|

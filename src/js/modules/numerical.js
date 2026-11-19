@@ -1,6 +1,8 @@
 (function (root) {
   const E =
-    typeof module === "object" ? require("./math-engine") : root.MathEngine;
+    typeof module === "object"
+      ? require("../core/math-engine")
+      : root.MathEngine;
   function fn(expr, vars = {}) {
     const f = E.compile(expr, vars);
     return (x) => {

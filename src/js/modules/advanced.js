@@ -1,7 +1,9 @@
 /* Independent applied-math routines; shared by the interface and Node regression tests. */
 (function (root) {
   const E =
-    typeof module === "object" ? require("./math-engine") : root.MathEngine;
+    typeof module === "object"
+      ? require("../core/math-engine")
+      : root.MathEngine;
   const m = E.math;
   function dataset(text) {
     const tokens = text.trim().split(/[\s,;]+/);

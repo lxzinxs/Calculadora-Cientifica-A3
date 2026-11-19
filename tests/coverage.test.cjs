@@ -4,10 +4,10 @@ const { test } = require("node:test");
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
-const E = require("../math-engine"),
-  N = require("../numerical"),
-  A = require("../advanced"),
-  G = require("../graph-scale");
+const E = require("../src/js/core/math-engine"),
+  N = require("../src/js/modules/numerical"),
+  A = require("../src/js/modules/advanced"),
+  G = require("../src/js/modules/graph-scale");
 
 const close = (a, b, tol = 1e-10) =>
   assert.ok(Math.abs(a - b) <= tol * Math.max(1, Math.abs(b)), `${a} ≠ ${b}`);
@@ -120,7 +120,7 @@ const samples = {
 
 test("Inventário: toda função da allowlist tem caso de teste e funciona", () => {
   const src = fs.readFileSync(
-    path.join(__dirname, "..", "math-engine.js"),
+    path.join(__dirname, "..", "src", "js", "core", "math-engine.js"),
     "utf8",
   );
   const names = src.match(/new Set\(\s*"([^"]+)"/)[1].split(" ");
